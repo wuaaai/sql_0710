@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+requests
+pg8000
+dmPython
+pydantic
+python-dotenv

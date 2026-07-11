@@ -1,0 +1,10 @@
+{
+  "description": "参与生成 projectname.json 的达梦表配置。后续可由管理平台维护。",
+  "tables": [
+    "RDYS_LD_YSSC_YSZX_QSYBGGYSSRWC",
+    "RDYS_LD_YSSC_YSZX_QSYBGGYSZCWC",
+    "RDYS_LD_YSZX_YBGGYS_SBJSRWCQK",
+    "RDYS_LD_YSZX_YBGGYS_SBJZCWCQK",
+    ""
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "RDYS_LD_YSSC_YSZX_QSYBGGYSSRWC": {
+    "table_zh": "预算执行-全省一般公共预算收入完成情况表",
+    "business_module": "预算执行",
+    "account_book": "一般公共预算",
+    "flow_type": "收入",
+    "region_level": "全省",
+    "data_stage": "完成情况",
+    "time_grain": "month",
+    "aliases": [
+      "预算执行 一般公共预算 收入",
+      "一般公共预算收入完成情况"
+    ]
+  },
+  "RDYS_LD_YSSC_BNYS_QSYBGGDQSRWC": {
+    "table_zh": "预算审查-全省一般公共预算地区收入完成情况表",
+    "business_module": "预算审查",
+    "account_book": "一般公共预算",
+    "flow_type": "收入",
+    "region_level": "区县",
+    "data_stage": "完成情况",
+    "time_grain": "month",
+    "aliases": [
+      "预算审查 一般公共预算 地区收入",
+      "地区收入完成情况"
+    ]
+  }
+}

@@ -1,0 +1,2773 @@
+{
+  "db_id": "RDYS_PUBLIC_TBS_DM",
+  "schema": "RDYS_PUBLIC_TBS_DM",
+  "tables": {
+    "RDYS_LD_YSSC_BNYS_QSYBGGDQSRWC": {
+      "comment": "预算审查监督-预算执行表-全省一般公共预算地区收入完成情况表",
+      "fields": {
+        "DATA_ID": {
+          "type": "VARCHAR2",
+          "primary_key": true,
+          "nullable": false,
+          "default": null,
+          "autoincrement": false,
+          "comment": "唯一标识",
+          "examples": [
+            "000c3303-efbf-4cc9-8a98-64836136c55e",
+            "0015324a-c8bf-467d-a2c7-7813aeb9e376",
+            "0016a4da-7a97-41db-a90c-5c4c356ef91a",
+            "0016f204-82a9-497c-997c-15a9fe0d00fe",
+            "001720ba-98c5-4fd1-9b68-477798ed7876"
+          ]
+        },
+        "XH": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "序号",
+          "examples": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        "YEAR_MONTH": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "业务年度",
+          "examples": [
+            "202001",
+            "202002",
+            "202003",
+            "202004",
+            "202005"
+          ]
+        },
+        "DATE_YEAR": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "数据年度",
+          "examples": [
+            "2026"
+          ]
+        },
+        "RG_CODE": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "区划编码",
+          "examples": [
+            "130000000"
+          ]
+        },
+        "RG_NAME": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "区划名称",
+          "examples": [
+            "河北省"
+          ]
+        },
+        "DEPT_CODE": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "部门编码",
+          "examples": []
+        },
+        "DEPT_NAME": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "部门名称",
+          "examples": []
+        },
+        "XM_CODE": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "科目编码",
+          "examples": [
+            "130000hj",
+            "130000bj",
+            "130000xjhj",
+            "130000sbjhj",
+            "130000qxhj"
+          ]
+        },
+        "XM_NAME": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "科目名称",
+          "examples": [
+            "合计",
+            "省本级",
+            "市合计",
+            "市本级合计",
+            "区县合计"
+          ]
+        },
+        "TZYSS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "调整预算数",
+          "examples": [
+            "39860000.0",
+            "7780000.0",
+            "32080000.0",
+            "3911770.0",
+            "28294717.0"
+          ]
+        },
+        "BYS_JE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数—金额",
+          "examples": [
+            "3816322.0",
+            "999807.0",
+            "2816515.0",
+            "283514.0",
+            "2533001.0"
+          ]
+        },
+        "BYS_SNTYS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数—上年同月数",
+          "examples": [
+            "4321648.52",
+            "1195641.0",
+            "3126007.52",
+            "390672.0",
+            "2735335.52"
+          ]
+        },
+        "BYS_TBE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数—同比+-额",
+          "examples": [
+            "-505326.52",
+            "-195834.0",
+            "-309492.52",
+            "-107158.0",
+            "-202334.52"
+          ]
+        },
+        "BYS_TBB": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数—同比+-%",
+          "examples": [
+            "-11.692911",
+            "-16.378997",
+            "-9.900569",
+            "-27.429148",
+            "-7.397064"
+          ]
+        },
+        "ZBYLJS_JE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-金额",
+          "examples": [
+            "3816322.0",
+            "999807.0",
+            "2816515.0",
+            "283514.0",
+            "2533001.0"
+          ]
+        },
+        "ZBYLJS_WYSS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-为预算数%",
+          "examples": [
+            "9.57",
+            "12.85",
+            "8.78",
+            "7.25",
+            "8.95"
+          ]
+        },
+        "ZBYLJS_SNTQS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-上年同期数",
+          "examples": [
+            "4321648.52",
+            "1195641.0",
+            "3126007.52",
+            "390672.0",
+            "2735335.52"
+          ]
+        },
+        "ZBYLJS_TBE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-同比+-额",
+          "examples": [
+            "-505326.52",
+            "-195834.0",
+            "-309492.52",
+            "-107158.0",
+            "-202334.52"
+          ]
+        },
+        "ZBYLJS_TBB": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-同比+-%",
+          "examples": [
+            "-11.692911",
+            "-16.378997",
+            "-9.900569",
+            "-27.429148",
+            "-7.397064"
+          ]
+        },
+        "ZBYLJS_QZSSSR": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "其中：税收收入",
+          "examples": []
+        },
+        "SR_XM": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "收入-项目",
+          "examples": []
+        },
+        "SR_YSAP": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "收入-预算安排",
+          "examples": []
+        },
+        "ZC_XM": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "支出-项目",
+          "examples": []
+        },
+        "ZC_YSAP": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "支出-预算安排",
+          "examples": []
+        },
+        "LAST_YEAR": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "导入时间",
+          "examples": [
+            "2024-06-03 22:14:46",
+            "2023-11-20 11:18:14",
+            "20260127",
+            "2023-12-27 16:37:57",
+            "2024-03-13 09:28:53"
+          ]
+        },
+        "HOLD1": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD1",
+          "examples": []
+        },
+        "HOLD2": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD2",
+          "examples": []
+        },
+        "HOLD3": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD3",
+          "examples": []
+        },
+        "HOLD4": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD4",
+          "examples": []
+        },
+        "IS_DELETED": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": "'0'",
+          "autoincrement": false,
+          "comment": "是否删除  0：未删除 ，1：删除",
+          "examples": [
+            "0"
+          ]
+        },
+        "BNSY_LJS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本年上月累计数",
+          "examples": [
+            "34433588.0",
+            "5445711.0",
+            "28987877.0",
+            "3924804.0",
+            "25063073.0"
+          ]
+        },
+        "SNSY_LJS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "上年上月累计数",
+          "examples": [
+            "2349675.0",
+            "677834.0",
+            "1671841.0",
+            "236295.0",
+            "1435546.0"
+          ]
+        },
+        "AI_XM_CODE": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "ai用科目编码",
+          "examples": []
+        },
+        "AI_XM_NAME": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "ai用科目名称",
+          "examples": []
+        }
+      }
+    },
+    "RDYS_LD_YSSC_YSZX_QSYBGGYSSRWC": {
+      "comment": "预算审查监督-预算执行表-全省一般公共预算收入完成情况表",
+      "fields": {
+        "DATA_ID": {
+          "type": "VARCHAR2",
+          "primary_key": true,
+          "nullable": false,
+          "default": null,
+          "autoincrement": false,
+          "comment": "唯一标识",
+          "examples": [
+            "006fccf0-b0b1-47d2-80b5-5b79b9189430",
+            "00a2bd4e-bcd7-4e8c-8f08-a531cf6afebc",
+            "01718e94-498d-42c6-95c5-e8c80793047f",
+            "01ed7909-ea03-42b5-8d9b-fb3a2ee8bcd9",
+            "025591b1-cb14-4c34-9abe-121178023031"
+          ]
+        },
+        "XH": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "序号",
+          "examples": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        "YEAR_MONTH": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "业务年度",
+          "examples": [
+            "202001",
+            "202002",
+            "202003",
+            "202004",
+            "202005"
+          ]
+        },
+        "DATE_YEAR": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "数据年度",
+          "examples": [
+            "2025",
+            "2026"
+          ]
+        },
+        "RG_CODE": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "区划编码",
+          "examples": [
+            "130000000"
+          ]
+        },
+        "RG_NAME": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "区划名称",
+          "examples": [
+            "河北省",
+            "河北省本级"
+          ]
+        },
+        "DEPT_CODE": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "部门编码",
+          "examples": []
+        },
+        "DEPT_NAME": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "部门名称",
+          "examples": []
+        },
+        "XM_CODE": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "科目编码",
+          "examples": [
+            "hj",
+            "101",
+            "10101",
+            "1010101",
+            "1010104"
+          ]
+        },
+        "XM_NAME": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "科目名称",
+          "examples": [
+            "合    计",
+            "一、税收收入",
+            "增值税",
+            "国内增值税",
+            "改征增值税"
+          ]
+        },
+        "YSS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "预算数",
+          "examples": [
+            "39860000.0",
+            "28410000.0",
+            "11220000.0",
+            "4360000.0",
+            "774000.0"
+          ]
+        },
+        "BYS_JE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数—金额",
+          "examples": [
+            "3816322.0",
+            "2995310.0",
+            "1201174.0",
+            "537206.0",
+            "663968.0"
+          ]
+        },
+        "BYS_SNTYS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数—上年同月数",
+          "examples": [
+            "4321648.52",
+            "3542120.38",
+            "1436347.74",
+            "758358.73",
+            "677989.01"
+          ]
+        },
+        "BYS_TBE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数—同比+-额",
+          "examples": [
+            "-505326.52",
+            "-546810.38",
+            "-235173.74",
+            "-221152.73",
+            "-14021.01"
+          ]
+        },
+        "BYS_TBB": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数—同比+-%",
+          "examples": [
+            "-11.692911",
+            "-15.437374",
+            "-16.373037",
+            "-29.162021",
+            "-2.068029"
+          ]
+        },
+        "ZBYLJS_JE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-金额",
+          "examples": [
+            "3816322.0",
+            "2995310.0",
+            "1201174.0",
+            "537206.0",
+            "663968.0"
+          ]
+        },
+        "ZBYLJS_WYSS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-为预算数%",
+          "examples": [
+            "9.574315",
+            "10.543154",
+            "10.705651",
+            "0.0",
+            "18.017844"
+          ]
+        },
+        "ZBYLJS_SNTQS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-上年同期数",
+          "examples": [
+            "4321648.52",
+            "3542120.38",
+            "1436347.74",
+            "758358.73",
+            "677989.01"
+          ]
+        },
+        "ZBYLJS_TBE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-同比+-额",
+          "examples": [
+            "-505326.52",
+            "-546810.38",
+            "-235173.74",
+            "-221152.73",
+            "-14021.01"
+          ]
+        },
+        "ZBYLJS_TBB": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-同比+-%",
+          "examples": [
+            "-11.692911",
+            "-15.437374",
+            "-16.373037",
+            "-29.162021",
+            "-2.068029"
+          ]
+        },
+        "LAST_YEAR": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "导入时间",
+          "examples": [
+            "2024-06-03 22:14:46",
+            "2023-11-20 11:18:14",
+            "2026/1/26",
+            "2023-12-27 16:37:57",
+            "2024-03-13 09:28:52"
+          ]
+        },
+        "HOLD1": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD1",
+          "examples": []
+        },
+        "HOLD2": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD2",
+          "examples": []
+        },
+        "HOLD3": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD3",
+          "examples": []
+        },
+        "HOLD4": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD4",
+          "examples": []
+        },
+        "IS_DELETED": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": "'0'",
+          "autoincrement": false,
+          "comment": "是否删除  0：未删除 ，1：删除",
+          "examples": [
+            "0"
+          ]
+        },
+        "BNSY_LJS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本年上月累计数",
+          "examples": [
+            "34433588",
+            "20156418",
+            "8180878",
+            "2522593",
+            "609497"
+          ]
+        },
+        "SNSY_LJS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "上年上月累计数",
+          "examples": [
+            "33129798",
+            "17303257",
+            "4641305",
+            "2875317",
+            "599910"
+          ]
+        },
+        "AI_XM_CODE": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "ai用科目编码",
+          "examples": [
+            "hj",
+            "101",
+            "10101",
+            "1010101",
+            "1010104"
+          ]
+        },
+        "AI_XM_NAME": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "ai用科目名称",
+          "examples": [
+            "合计",
+            "税收收入",
+            "增值税",
+            "国内增值税",
+            "改征增值税"
+          ]
+        }
+      }
+    },
+    "RDYS_LD_YSSC_YSZX_QSYBGGYSZCWC": {
+      "comment": "预算审查监督-预算执行表-全省一般公共预算支出完成情况表",
+      "fields": {
+        "DATA_ID": {
+          "type": "VARCHAR2",
+          "primary_key": true,
+          "nullable": false,
+          "default": null,
+          "autoincrement": false,
+          "comment": "唯一标识",
+          "examples": [
+            "0007ad4c-7147-4157-9b06-456635e0fa42",
+            "0034cf54-9b1e-4be1-8bd9-6ca2e6d5cbd8",
+            "005d89e5-8f09-4420-b3a0-4b49a2fcc80b",
+            "005e8a61-5415-4173-bdf5-5945f1375c92",
+            "009da5fa-be6e-4c3c-8cfc-280108b5a9a3"
+          ]
+        },
+        "XH": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "序号",
+          "examples": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        "YEAR_MONTH": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "业务年度",
+          "examples": [
+            "202001",
+            "202002",
+            "202003",
+            "202004",
+            "202005"
+          ]
+        },
+        "DATE_YEAR": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "数据年度",
+          "examples": [
+            "2026"
+          ]
+        },
+        "RG_CODE": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "区划编码",
+          "examples": [
+            "130000000"
+          ]
+        },
+        "RG_NAME": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "区划名称",
+          "examples": [
+            "河北省"
+          ]
+        },
+        "DEPT_CODE": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "部门编码",
+          "examples": []
+        },
+        "DEPT_NAME": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "部门名称",
+          "examples": []
+        },
+        "XM_CODE": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "科目编码",
+          "examples": [
+            "hj",
+            "201",
+            "203",
+            "204",
+            "205"
+          ]
+        },
+        "XM_NAME": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "科目名称",
+          "examples": [
+            "合   计",
+            "一、一般公共服务支出",
+            "二、国防支出",
+            "三、公共安全支出",
+            "四、教育支出"
+          ]
+        },
+        "YSS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "预算数",
+          "examples": [
+            "80678856.0",
+            "5935592.0",
+            "139243.0",
+            "4015463.0",
+            "15267738.0"
+          ]
+        },
+        "BYS_JE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数—金额",
+          "examples": [
+            "6466673.0",
+            "567047.0",
+            "5655.0",
+            "252423.0",
+            "1239320.0"
+          ]
+        },
+        "BYS_SNTYS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数—上年同月数",
+          "examples": [
+            "5834341.69",
+            "651487.61",
+            "1593.06",
+            "222028.06",
+            "1094004.15"
+          ]
+        },
+        "BYS_TBE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数—同比+-额",
+          "examples": [
+            "632331.31",
+            "-84440.61",
+            "4061.94",
+            "30394.94",
+            "145315.85"
+          ]
+        },
+        "BYS_TBB": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数—同比+-%",
+          "examples": [
+            "10.838092",
+            "-12.9612",
+            "254.977214",
+            "13.689684",
+            "13.282934"
+          ]
+        },
+        "ZBYLJS_JE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-金额",
+          "examples": [
+            "6466673.0",
+            "567047.0",
+            "5655.0",
+            "252423.0",
+            "1239320.0"
+          ]
+        },
+        "ZBYLJS_WYSS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-为预算数%",
+          "examples": [
+            "8.015326",
+            "9.553335",
+            "4.061245",
+            "6.286274",
+            "8.117247"
+          ]
+        },
+        "ZBYLJS_SNTQS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-上年同期数",
+          "examples": [
+            "5834341.69",
+            "651487.61",
+            "1593.06",
+            "222028.06",
+            "1094004.15"
+          ]
+        },
+        "ZBYLJS_TBE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-同比+-额",
+          "examples": [
+            "632331.31",
+            "-84440.61",
+            "4061.94",
+            "30394.94",
+            "145315.85"
+          ]
+        },
+        "ZBYLJS_TBB": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-同比+-%",
+          "examples": [
+            "10.838092",
+            "-12.9612",
+            "254.977214",
+            "13.689684",
+            "13.282934"
+          ]
+        },
+        "LAST_YEAR": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "导入时间",
+          "examples": [
+            "2024-06-03 22:14:46",
+            "2023-11-20 11:18:14",
+            "2026/1/26",
+            "2023-12-27 16:37:57",
+            "2024-03-13 09:28:52"
+          ]
+        },
+        "HOLD1": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD1",
+          "examples": []
+        },
+        "HOLD2": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD2",
+          "examples": []
+        },
+        "HOLD3": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD3",
+          "examples": []
+        },
+        "HOLD4": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD4",
+          "examples": []
+        },
+        "IS_DELETED": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": "'0'",
+          "autoincrement": false,
+          "comment": "是否删除  0：未删除 ，1：删除",
+          "examples": [
+            "0"
+          ]
+        },
+        "BNSY_LJS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本年上月累计数",
+          "examples": [
+            "71038916",
+            "6532939",
+            "57574",
+            "3145392",
+            "13157459"
+          ]
+        },
+        "SNSY_LJS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "上年上月累计数",
+          "examples": [
+            "69495421",
+            "6816619",
+            "66909",
+            "3120954",
+            "13174294"
+          ]
+        },
+        "AI_XM_CODE": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "ai用科目编码",
+          "examples": [
+            "hj",
+            "201",
+            "203",
+            "204",
+            "205"
+          ]
+        },
+        "AI_XM_NAME": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "ai用科目名称",
+          "examples": [
+            "合计",
+            "一般公共服务支出",
+            "国防支出",
+            "公共安全支出",
+            "教育支出"
+          ]
+        }
+      }
+    },
+    "RDYS_LD_YSZX_YBGGYS_DQZCWCQK": {
+      "comment": "预算执行-全省一般公共预算地区支出完成情况表",
+      "fields": {
+        "DATA_ID": {
+          "type": "VARCHAR2",
+          "primary_key": true,
+          "nullable": false,
+          "default": null,
+          "autoincrement": false,
+          "comment": "DATA_ID",
+          "examples": [
+            "000bd0d9-416e-4448-a751-353991031232",
+            "000e3389-65b7-40c3-9a8a-906b0640252e",
+            "000ee7e5-1718-4572-a238-7c8382773d67",
+            "001376b7-a438-4f77-ba49-9636cc8f54ac",
+            "0018b72c-2363-44c9-a428-abc8818448c7"
+          ]
+        },
+        "XH": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "XH",
+          "examples": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        "YEAR_MONTH": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "YEAR_MONTH",
+          "examples": [
+            "202001",
+            "202002",
+            "202003",
+            "202004",
+            "202005"
+          ]
+        },
+        "DATE_YEAR": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "DATE_YEAR",
+          "examples": [
+            "2026"
+          ]
+        },
+        "RG_CODE": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "RG_CODE",
+          "examples": [
+            "130000000"
+          ]
+        },
+        "RG_NAME": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "RG_NAME",
+          "examples": [
+            "河北省"
+          ]
+        },
+        "DEPT_CODE": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "DEPT_CODE",
+          "examples": []
+        },
+        "DEPT_NAME": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "DEPT_NAME",
+          "examples": []
+        },
+        "LAST_YEAR": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "LAST_YEAR",
+          "examples": [
+            "2024-06-03 22:14:46",
+            "2023-11-20 11:18:14",
+            "2026/1/27",
+            "2023-12-27 16:37:57",
+            "2024-03-13 09:28:53"
+          ]
+        },
+        "HOLD1": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD1",
+          "examples": []
+        },
+        "HOLD2": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD2",
+          "examples": []
+        },
+        "HOLD3": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD3",
+          "examples": []
+        },
+        "HOLD4": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD4",
+          "examples": []
+        },
+        "IS_DELETED": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": "'0'",
+          "autoincrement": false,
+          "comment": "IS_DELETED",
+          "examples": [
+            "0"
+          ]
+        },
+        "YSS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "预算数",
+          "examples": [
+            "81346988.0",
+            "11899702.0",
+            "69447286.0",
+            "15183657.0",
+            "54263629.0"
+          ]
+        },
+        "BYS_JE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数-金额",
+          "examples": [
+            "6466673.0",
+            "1668919.0",
+            "4797754.0",
+            "813650.0",
+            "3984104.0"
+          ]
+        },
+        "BYS_SNTYS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数-上年同月数",
+          "examples": [
+            "5834341.69",
+            "1676006.0",
+            "4158335.69",
+            "874208.47",
+            "3284127.22"
+          ]
+        },
+        "BYS_TBE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数-同比+-额",
+          "examples": [
+            "632331.31",
+            "-7087.0",
+            "639418.31",
+            "-60558.47",
+            "699976.78"
+          ]
+        },
+        "BYS_TBP": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数-同比+-%",
+          "examples": [
+            "10.8381",
+            "-0.4229",
+            "15.3768",
+            "-6.9272",
+            "21.3139"
+          ]
+        },
+        "BYLJS_JE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-金额",
+          "examples": [
+            "6466673.0",
+            "1668919.0",
+            "4797754.0",
+            "813650.0",
+            "3984104.0"
+          ]
+        },
+        "BYLJS_YSS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-为预算数%",
+          "examples": [
+            "7.95",
+            "14.02",
+            "6.91",
+            "5.36",
+            "7.34"
+          ]
+        },
+        "BYLJS_SNTQS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-上年同期数",
+          "examples": [
+            "5834341.69",
+            "1676006.0",
+            "4158335.69",
+            "874208.47",
+            "3284127.22"
+          ]
+        },
+        "BYLJS_TBE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-同比+-额",
+          "examples": [
+            "632331.31",
+            "-7087.0",
+            "639418.31",
+            "-60558.47",
+            "699976.78"
+          ]
+        },
+        "BYLJS_TBP": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-同比+-%",
+          "examples": [
+            "10.8381",
+            "-0.4229",
+            "15.3768",
+            "-6.9272",
+            "21.3139"
+          ]
+        },
+        "XM_CODE": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "科目编码",
+          "examples": [
+            "130000hj",
+            "130000bj",
+            "130000xjhj",
+            "130000sbjhj",
+            "130000qxhj"
+          ]
+        },
+        "XM_NAME": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "科目名称",
+          "examples": [
+            "合计",
+            "省本级",
+            "市合计",
+            "市本级合计",
+            "区县合计"
+          ]
+        },
+        "BNSY_LJS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本年上月累计数",
+          "examples": [
+            "71038916.0",
+            "9006513.0",
+            "62032403.0",
+            "14325603.0",
+            "47706800.0"
+          ]
+        },
+        "SNSY_LJS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "上年上月累计数",
+          "examples": [
+            "69495421.0",
+            "9210214.0",
+            "60285207.0",
+            "13003441.0",
+            "47281766.0"
+          ]
+        },
+        "AI_XM_CODE": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "ai用科目编码",
+          "examples": []
+        },
+        "AI_XM_NAME": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "ai用科目名称",
+          "examples": []
+        }
+      }
+    },
+    "RDYS_LD_YSZX_YBGGYS_SBJSRWCQK": {
+      "comment": "预算执行-省本级一般公共预算收入完成情况表",
+      "fields": {
+        "DATA_ID": {
+          "type": "VARCHAR",
+          "primary_key": true,
+          "nullable": false,
+          "default": null,
+          "autoincrement": false,
+          "comment": "唯一标识",
+          "examples": [
+            "005d6183-f533-43a7-b3fb-9c3000fb94bb",
+            "00b8492f-6d83-4a0f-96da-2a0d9fdfb04f",
+            "00d42926-bb4e-42c3-87c5-36dba712eb47",
+            "0108490d-4271-4113-8083-e65c4c4af2fd",
+            "015f6a0e-d603-489e-98fe-8df13ef74070"
+          ]
+        },
+        "XH": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "序号",
+          "examples": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        "YEAR_MONTH": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "业务年月",
+          "examples": [
+            "202001",
+            "202002",
+            "202003",
+            "202004",
+            "202005"
+          ]
+        },
+        "DATE_YEAR": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "数据年度",
+          "examples": [
+            "2023",
+            "2025",
+            "2026"
+          ]
+        },
+        "RG_CODE": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "区划编码",
+          "examples": [
+            "130000000"
+          ]
+        },
+        "RG_NAME": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "区划名称",
+          "examples": [
+            "河北省"
+          ]
+        },
+        "DEPT_CODE": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "部门编码",
+          "examples": []
+        },
+        "DEPT_NAME": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "部门名称",
+          "examples": []
+        },
+        "LAST_YEAR": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "导入时间",
+          "examples": [
+            "2024-06-03 22:14:46",
+            "2023-11-20 11:18:14",
+            "2026/1/26",
+            "2023-12-27 16:37:57",
+            "2024-03-13 09:28:53"
+          ]
+        },
+        "HOLD1": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD1",
+          "examples": []
+        },
+        "HOLD2": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD2",
+          "examples": []
+        },
+        "HOLD3": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD3",
+          "examples": []
+        },
+        "HOLD4": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD4",
+          "examples": []
+        },
+        "IS_DELETED": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "是否删除  0：未删除 ，1：删除",
+          "examples": [
+            "0"
+          ]
+        },
+        "XM_CODE": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "科目编码",
+          "examples": [
+            "hj",
+            "101",
+            "10101",
+            "1010101",
+            "1010104"
+          ]
+        },
+        "XM_NAME": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "项目名称",
+          "examples": [
+            "合    计",
+            "一、税收收入",
+            "增值税",
+            "国内增值税",
+            "改征增值税"
+          ]
+        },
+        "YSS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "预算数",
+          "examples": [
+            "7780000",
+            "6430000",
+            "3595000",
+            "2255000",
+            "193000"
+          ]
+        },
+        "BYS_JE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数-金额",
+          "examples": [
+            "999807",
+            "855768",
+            "397375",
+            "160633",
+            "399806"
+          ]
+        },
+        "BYS_SNTYS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数-上年同月数",
+          "examples": [
+            "1195641",
+            "1034560",
+            "475132",
+            "231492",
+            "496735"
+          ]
+        },
+        "BYS_TBE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数-同比+、-额",
+          "examples": [
+            "-195834",
+            "-178792",
+            "-77757",
+            "-70859",
+            "0"
+          ]
+        },
+        "BYS_TBP": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数-同比+、-%",
+          "examples": [
+            "-16.379",
+            "-17.2819",
+            "-16.3653",
+            "-30.6097",
+            "-19.5132"
+          ]
+        },
+        "BYLJS_JE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-金额",
+          "examples": [
+            "999807",
+            "855768",
+            "397375",
+            "160633",
+            "236742"
+          ]
+        },
+        "BYLJS_YSS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-为预算数%",
+          "examples": [
+            "12.85099",
+            "13.308989",
+            "11.053547",
+            "0",
+            "17.729756"
+          ]
+        },
+        "BYLJS_SNTQS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-上年同期数",
+          "examples": [
+            "1195641",
+            "1034560",
+            "475132",
+            "231492",
+            "243640"
+          ]
+        },
+        "BYLJS_TBE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-同比+、-额",
+          "examples": [
+            "-195834",
+            "-178792",
+            "-77757",
+            "-70859",
+            "-6898"
+          ]
+        },
+        "BYLJS_TBP": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-同比+、-%",
+          "examples": [
+            "-16.379",
+            "-17.2819",
+            "-16.3653",
+            "-30.6097",
+            "-2.8312"
+          ]
+        },
+        "BNSY_LJS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本年上月累计数",
+          "examples": [
+            "5445711",
+            "4424938",
+            "2627875",
+            "1347198",
+            "152375"
+          ]
+        },
+        "SNSY_LJS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "上年上月累计数",
+          "examples": [
+            "4664271",
+            "3657433",
+            "1643859",
+            "1529095",
+            "149978"
+          ]
+        },
+        "AI_XM_CODE": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "ai用科目编码",
+          "examples": [
+            "hj",
+            "101",
+            "10101",
+            "1010101",
+            "1010104"
+          ]
+        },
+        "AI_XM_NAME": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "ai用科目名称",
+          "examples": [
+            "合计",
+            "税收收入",
+            "增值税",
+            "国内增值税",
+            "改征增值税"
+          ]
+        }
+      }
+    },
+    "RDYS_LD_YSZX_YBGGYS_SBJZCWCQK": {
+      "comment": "预算执行-省本级一般公共预算支出完成情况表",
+      "fields": {
+        "DATA_ID": {
+          "type": "VARCHAR2",
+          "primary_key": true,
+          "nullable": false,
+          "default": null,
+          "autoincrement": false,
+          "comment": "唯一标识",
+          "examples": [
+            "00222076-1240-4a46-ab05-47f5dddeebb5",
+            "0034ca73-8b83-4d74-92ce-c0ccb9657fee",
+            "003904bc-2816-4303-afd2-f940a80604d3",
+            "00728a6a-2b27-46e9-855a-65cde672e106",
+            "00febaa8-7c33-42c5-b064-c1b9ebd94231"
+          ]
+        },
+        "XH": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "序号",
+          "examples": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        "YEAR_MONTH": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "业务年月",
+          "examples": [
+            "202001",
+            "202002",
+            "202003",
+            "202004",
+            "202005"
+          ]
+        },
+        "DATE_YEAR": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "数据年度",
+          "examples": [
+            "2026"
+          ]
+        },
+        "RG_CODE": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "区划编码",
+          "examples": [
+            "130000000"
+          ]
+        },
+        "RG_NAME": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "区划名称",
+          "examples": [
+            "河北省",
+            "河北省本级"
+          ]
+        },
+        "DEPT_CODE": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "部门编码",
+          "examples": []
+        },
+        "DEPT_NAME": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "部门名称",
+          "examples": []
+        },
+        "LAST_YEAR": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "导入时间",
+          "examples": [
+            "2024-06-03 22:14:46",
+            "2023-11-20 11:18:14",
+            "2023-12-29 15:07:31",
+            "2023-12-27 16:37:57",
+            "2024-03-13 09:28:53"
+          ]
+        },
+        "HOLD1": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD1",
+          "examples": []
+        },
+        "HOLD2": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD2",
+          "examples": []
+        },
+        "HOLD3": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD3",
+          "examples": []
+        },
+        "HOLD4": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD4",
+          "examples": []
+        },
+        "IS_DELETED": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": "'0'",
+          "autoincrement": false,
+          "comment": "是否删除  0：未删除 ，1：删除",
+          "examples": [
+            "0"
+          ]
+        },
+        "XM_CODE": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "科目编码",
+          "examples": [
+            "hj",
+            "201",
+            "203",
+            "204",
+            "205"
+          ]
+        },
+        "XM_NAME": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "项目名称",
+          "examples": [
+            "合   计",
+            "一、一般公共服务支出",
+            "二、国防支出",
+            "三、公共安全支出",
+            "四、教育支出"
+          ]
+        },
+        "YSS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "预算数",
+          "examples": [
+            "10658088.0",
+            "747684.0",
+            "18063.0",
+            "659952.0",
+            "1791138.0"
+          ]
+        },
+        "BYS_JE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数-金额",
+          "examples": [
+            "1668919.0",
+            "12131.0",
+            "0.0",
+            "29680.0",
+            "78567.0"
+          ]
+        },
+        "BYS_SNTYS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数-上年同月数",
+          "examples": [
+            "1676006.0",
+            "7952.0",
+            "0.0",
+            "17500.0",
+            "81340.0"
+          ]
+        },
+        "BYS_TBE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数-同比+、-额",
+          "examples": [
+            "-7087.0",
+            "4179.0",
+            "0.0",
+            "12180.0",
+            "-2773.0"
+          ]
+        },
+        "BYS_TBP": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本月数-同比+、-%",
+          "examples": [
+            "-0.4229",
+            "52.5528",
+            "0.0",
+            "69.6",
+            "-3.4091"
+          ]
+        },
+        "BYLJS_JE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-金额",
+          "examples": [
+            "1668919.0",
+            "12131.0",
+            "29680.0",
+            "78567.0",
+            "3478.0"
+          ]
+        },
+        "BYLJS_YSS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-为预算数%",
+          "examples": [
+            "15.6587",
+            "1.6225",
+            "0.0",
+            "4.4973",
+            "4.3864"
+          ]
+        },
+        "BYLJS_SNTQS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-上年同期数",
+          "examples": [
+            "1676006.0",
+            "7952.0",
+            "17500.0",
+            "81340.0",
+            "4804.0"
+          ]
+        },
+        "BYLJS_TBE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-同比+、-额",
+          "examples": [
+            "-7087.0",
+            "4179.0",
+            "0.0",
+            "12180.0",
+            "-2773.0"
+          ]
+        },
+        "BYLJS_TBP": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "至本月累计数-同比+、-%",
+          "examples": [
+            "-0.4229",
+            "52.5528",
+            "0.0",
+            "69.6",
+            "-3.4091"
+          ]
+        },
+        "BNSY_LJS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "本年上月累计数",
+          "examples": [
+            "10820318.0",
+            "383793.0",
+            "12355.0",
+            "575680.0",
+            "2085087.0"
+          ]
+        },
+        "SNSY_LJS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "上年上月累计数",
+          "examples": [
+            "10201722.0",
+            "383909.0",
+            "10255.0",
+            "573643.0",
+            "1997422.0"
+          ]
+        },
+        "AI_XM_CODE": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "ai用科目编码",
+          "examples": [
+            "hj",
+            "201",
+            "203",
+            "204",
+            "205"
+          ]
+        },
+        "AI_XM_NAME": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "ai用科目名称",
+          "examples": [
+            "合计",
+            "一般公共服务支出",
+            "国防支出",
+            "公共安全支出",
+            "教育支出"
+          ]
+        }
+      }
+    },
+    "RDYS_LD_YSZX_YBGGYS_SZPMQK": {
+      "comment": "预算执行-一般公共预算收支排名情况",
+      "fields": {
+        "DATA_ID": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": false,
+          "default": null,
+          "autoincrement": false,
+          "comment": "唯一标识",
+          "examples": [
+            "b661dd32-2853-4cc5-8628-d07f1548f873",
+            "2599de52-548f-4ce3-8177-d8a880dbb96f",
+            "378fd42d-b72f-442e-9223-147af3329fe6",
+            "d012a30b-3525-46db-8ee6-dc219cc3450a",
+            "9fef8ad2-60bd-4631-bbb5-e9076ad09975"
+          ]
+        },
+        "XH": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "序号",
+          "examples": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        "YEAR_MONTH": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "业务年月",
+          "examples": [
+            "202001",
+            "202002",
+            "202003",
+            "202004",
+            "202005"
+          ]
+        },
+        "DATE_YEAR": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "数据年度",
+          "examples": []
+        },
+        "RG_CODE": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "区划编码",
+          "examples": [
+            "130000000"
+          ]
+        },
+        "RG_NAME": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "区划名称",
+          "examples": [
+            "河北省"
+          ]
+        },
+        "DEPT_CODE": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "部门编码",
+          "examples": []
+        },
+        "DEPT_NAME": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "部门名称",
+          "examples": []
+        },
+        "LAST_YEAR": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "导入时间",
+          "examples": []
+        },
+        "HOLD1": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD1",
+          "examples": []
+        },
+        "HOLD2": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD2",
+          "examples": []
+        },
+        "HOLD3": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD3",
+          "examples": []
+        },
+        "HOLD4": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "HOLD4",
+          "examples": []
+        },
+        "IS_DELETED": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": "'0'",
+          "autoincrement": false,
+          "comment": "是否删除  0：未删除 ，1：删除",
+          "examples": [
+            "0"
+          ]
+        },
+        "SR_LJWCS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "收入累计完成数",
+          "examples": [
+            "12834.04",
+            "756.71",
+            "292.66",
+            "381.63",
+            "282.29"
+          ]
+        },
+        "SR_LJWCS_SORT": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "收入累计完成数排序",
+          "examples": [
+            "6.0",
+            "17.0",
+            "11.0",
+            "18.0",
+            "21.0"
+          ]
+        },
+        "SR_TBE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "收入同比额",
+          "examples": [
+            "-0.94",
+            "-6.48",
+            "5.83",
+            "-11.69",
+            "-19.84"
+          ]
+        },
+        "SR_TBE_SORT": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "收入同比额排序",
+          "examples": [
+            "25.0",
+            "5.0",
+            "27.0",
+            "31.0",
+            "26.0"
+          ]
+        },
+        "ZC_LJWCS": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "支出累计完成数",
+          "examples": [
+            "17072.89",
+            "570.93",
+            "226.55",
+            "646.67",
+            "381.6"
+          ]
+        },
+        "ZC_LJWCS_SORT": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "支出累计完成数排序",
+          "examples": [
+            "13.0",
+            "27.0",
+            "10.0",
+            "22.0",
+            "24.0"
+          ]
+        },
+        "ZC_TBE": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "支出同比额",
+          "examples": [
+            "5.36",
+            "-2.57",
+            "-10.21",
+            "10.84",
+            "-2.88"
+          ]
+        },
+        "ZC_TBE_SORT": {
+          "type": "NUMBER",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "支出同比额排序",
+          "examples": [
+            "20.0",
+            "25.0",
+            "12.0",
+            "21.0",
+            "28.0"
+          ]
+        },
+        "XM_CODE": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "项目代码",
+          "examples": [
+            "hj",
+            "110000",
+            "120000",
+            "130000",
+            "140000"
+          ]
+        },
+        "XM_NAME": {
+          "type": "VARCHAR2",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "项目名称",
+          "examples": [
+            "合计",
+            "北京市",
+            "天津市",
+            "河北省",
+            "山西省"
+          ]
+        },
+        "AI_XM_CODE": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "ai用科目编码",
+          "examples": []
+        },
+        "AI_XM_NAME": {
+          "type": "VARCHAR",
+          "primary_key": false,
+          "nullable": true,
+          "default": null,
+          "autoincrement": false,
+          "comment": "ai用科目名称",
+          "examples": []
+        }
+      }
+    }
+  }
+}

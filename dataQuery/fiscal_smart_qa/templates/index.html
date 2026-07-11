@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>财政智能问数</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #152033;
+      --muted: #667085;
+      --line: #e6ebf4;
+      --brand: #0f62fe;
+    }
+    body { font-family: "Microsoft YaHei", sans-serif; margin: 0; background: linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%); color: var(--text); }
+    .page { max-width: 1180px; margin: 0 auto; padding: 24px; }
+    .card { background: var(--card); border-radius: 18px; padding: 20px; box-shadow: 0 14px 35px rgba(15, 35, 95, 0.08); margin-bottom: 20px; border: 1px solid rgba(230, 235, 244, 0.9); }
+    textarea { width: 100%; min-height: 110px; padding: 14px; border-radius: 12px; border: 1px solid #d8e1ef; font-size: 15px; background: #fbfcfe; }
+    button { background: linear-gradient(135deg, #0f62fe, #0a84ff); color: #fff; border: 0; padding: 12px 18px; border-radius: 10px; cursor: pointer; font-size: 15px; box-shadow: 0 8px 18px rgba(15, 98, 254, 0.22); }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border-bottom: 1px solid var(--line); padding: 10px; text-align: left; font-size: 14px; }
+    .muted { color: var(--muted); font-size: 14px; }
+    .title { font-size: 30px; margin-bottom: 8px; font-weight: 700; }
+    .subtitle { color: var(--muted); margin-bottom: 16px; }
+    pre { white-space: pre-wrap; word-break: break-word; background: #f8fafc; padding: 12px; border-radius: 12px; }
+    .chart-wrap { position: relative; min-height: 420px; }
+    canvas { width: 100% !important; height: 420px !important; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="card">
+      <div class="title">财政智能问数</div>
+      <div class="subtitle">输入自然语言问题，系统会先生成 QueryPlan，再完成实体匹配、SQL 编译、执行与结果分析。</div>
+      <textarea id="question">2025年6-12月份全省国防支出累计金额与金融支出累计金额哪个大？</textarea>
+      <div style="margin-top: 14px;">
+        <button onclick="submitQuestion()">开始查询</button>
+      </div>
+    </div>
+
+    <div class="card" style="display:none;">
+      <h3>分析结论</h3>
+      <div id="analysis" class="muted">等待查询...</div>
+    </div>
+
+    <div class="card" style="display:none;">
+      <h3>QueryPlan / 选表结果</h3>
+      <pre id="selection"></pre>
+    </div>
+
+    <div class="card">
+      <h3>SQL</h3>
+      <pre id="sql"></pre>
+    </div>
+
+    <div class="card">
+      <h3>图表</h3>
+      <div class="chart-wrap">
+        <canvas id="chart"></canvas>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>结果明细</h3>
+      <div id="tableWrap"></div>
+    </div>
+  </div>
+
+  <script>
+    let chartInstance = null;
+    const palette = [
+      { solid: "#0f62fe", soft: "rgba(15,98,254,0.18)" },
+      { solid: "#f97316", soft: "rgba(249,115,22,0.18)" },
+      { solid: "#10b981", soft: "rgba(16,185,129,0.18)" },
+      { solid: "#8b5cf6", soft: "rgba(139,92,246,0.18)" },
+      { solid: "#ef4444", soft: "rgba(239,68,68,0.18)" },
+      { solid: "#14b8a6", soft: "rgba(20,184,166,0.18)" }
+    ];
+
+    async function submitQuestion() {
+      const question = document.getElementById("question").value.trim();
+      const response = await fetch("/api/query", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ question })
+      });
+      const data = await response.json();
+
+      document.getElementById("analysis").innerText = data.analysis || "暂无分析";
+      document.getElementById("selection").innerText = JSON.stringify({
+        plan: data.plan,
+        intent: data.intent,
+        selected_table: data.selected_table,
+        subject_match: data.subject_match,
+        subject_matches: data.subject_matches,
+        metric_match: data.metric_match,
+        metric_matches: data.metric_matches,
+        analysis_facts: data.analysis_facts,
+        candidates: data.candidates
+      }, null, 2);
+      document.getElementById("sql").innerText = data.sql || "";
+
+      renderTable(data.rows || []);
+      renderChart(data.chart || {});
+    }
+
+    function renderTable(rows) {
+      const wrap = document.getElementById("tableWrap");
+      if (!rows.length) {
+        wrap.innerHTML = "<div class='muted'>没有查询到数据</div>";
+        return;
+      }
+      const columns = Object.keys(rows[0]);
+      let html = "<table><thead><tr>";
+      for (const col of columns) html += `<th>${col}</th>`;
+      html += "</tr></thead><tbody>";
+      for (const row of rows) {
+        html += "<tr>";
+        for (const col of columns) html += `<td>${row[col] ?? ""}</td>`;
+        html += "</tr>";
+      }
+      html += "</tbody></table>";
+      wrap.innerHTML = html;
+    }
+
+    function renderChart(chart) {
+      const canvas = document.getElementById("chart");
+      const ctx = canvas.getContext("2d");
+      if (chartInstance) chartInstance.destroy();
+      if (!chart.can_plot) return;
+
+      if (chart.type === "pie") {
+        chartInstance = new Chart(ctx, {
+          type: "pie",
+          data: { labels: chart.labels, datasets: [{ data: chart.values, backgroundColor: palette.map(item => item.solid) }] },
+          options: buildCommonOptions()
+        });
+        return;
+      }
+
+      if (chart.type === "bar_line") {
+        chartInstance = new Chart(ctx, {
+          data: {
+            labels: chart.labels,
+            datasets: buildMixedDatasets(ctx, chart.series || [])
+          },
+          options: buildAxisOptions()
+        });
+        return;
+      }
+
+      if (chart.type === "bar_horizontal") {
+        chartInstance = new Chart(ctx, {
+          type: "bar",
+          data: {
+            labels: chart.labels,
+            datasets: buildBarDatasets(chart.series || [])
+          },
+          options: buildAxisOptions("y")
+        });
+        return;
+      }
+
+      if (chart.type === "line") {
+        chartInstance = new Chart(ctx, {
+          type: "line",
+          data: {
+            labels: chart.labels,
+            datasets: buildLineDatasets(ctx, chart.series || [])
+          },
+          options: buildAxisOptions()
+        });
+        return;
+      }
+
+      chartInstance = new Chart(ctx, {
+        type: "bar",
+        data: {
+          labels: chart.labels,
+          datasets: buildBarDatasets(chart.series || [])
+        },
+        options: buildAxisOptions()
+      });
+    }
+
+    function buildCommonOptions() {
+      return {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: {
+            labels: {
+              usePointStyle: true,
+              boxWidth: 10
+            }
+          }
+        }
+      };
+    }
+
+    function buildAxisOptions(indexAxis = "x") {
+      return {
+        ...buildCommonOptions(),
+        indexAxis,
+        interaction: {
+          mode: "index",
+          intersect: false
+        },
+        scales: {
+          x: {
+            grid: {
+              color: "rgba(230,235,244,0.7)"
+            },
+            ticks: {
+              color: "#516074"
+            }
+          },
+          y: {
+            beginAtZero: true,
+            grid: {
+              color: "rgba(230,235,244,0.7)"
+            },
+            ticks: {
+              color: "#516074"
+            }
+          }
+        }
+      };
+    }
+
+    function buildBarDatasets(series) {
+      return (series || []).map((item, index) => {
+        const tone = palette[index % palette.length];
+        return {
+          label: item.name,
+          data: item.values,
+          backgroundColor: tone.soft,
+          borderColor: tone.solid,
+          borderWidth: 1.5,
+          borderRadius: 6,
+          borderSkipped: false
+        };
+      });
+    }
+
+    function buildLineDatasets(ctx, series) {
+      return (series || []).map((item, index) => {
+        const tone = palette[index % palette.length];
+        const gradient = ctx.createLinearGradient(0, 0, 0, 420);
+        gradient.addColorStop(0, tone.soft);
+        gradient.addColorStop(1, "rgba(255,255,255,0.02)");
+        return {
+          label: item.name,
+          data: item.values,
+          fill: true,
+          backgroundColor: gradient,
+          borderColor: tone.solid,
+          pointBackgroundColor: tone.solid,
+          pointBorderColor: "#ffffff",
+          pointBorderWidth: 2,
+          pointRadius: 4,
+          tension: 0.28
+        };
+      });
+    }
+
+    function buildMixedDatasets(ctx, series) {
+      return (series || []).map((item, index) => {
+        const tone = palette[index % palette.length];
+        if (index === 0) {
+          return {
+            type: "bar",
+            label: item.name,
+            data: item.values,
+            backgroundColor: tone.soft,
+            borderColor: tone.solid,
+            borderWidth: 1.5,
+            borderRadius: 6,
+            borderSkipped: false
+          };
+        }
+        const gradient = ctx.createLinearGradient(0, 0, 0, 420);
+        gradient.addColorStop(0, tone.soft);
+        gradient.addColorStop(1, "rgba(255,255,255,0.02)");
+        return {
+          type: "line",
+          label: item.name,
+          data: item.values,
+          fill: true,
+          backgroundColor: gradient,
+          borderColor: tone.solid,
+          pointBackgroundColor: tone.solid,
+          pointBorderColor: "#ffffff",
+          pointBorderWidth: 2,
+          pointRadius: 4,
+          tension: 0.28
+        };
+      });
+    }
+  </script>
+</body>
+</html>

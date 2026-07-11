@@ -37,3 +37,4 @@ Thumbs.db
 
 # LangGraph 运行时
 .langgraph_api/
+*.zip

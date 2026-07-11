@@ -1,0 +1,231 @@
+{
+  "预算审查监督-预算执行表-全省一般公共预算地区收入完成情况表": {
+    "key_words": [],
+    "project_key": [
+      "科目编码",
+      "ai用科目编码"
+    ],
+    "is_sheng": 0,
+    "project_name": [
+      "科目名称",
+      "ai用科目名称"
+    ],
+    "is_hj": 1,
+    "unit": {
+      "万元": {
+        "TZYSS": "调整预算数",
+        "BYS_JE": "本月数—金额",
+        "BYS_SNTYS": "本月数—上年同月数",
+        "ZBYLJS_JE": "至本月累计数-金额",
+        "ZBYLJS_SNTQS": "至本月累计数-上年同期数",
+        "ZBYLJS_QZSSSR": "其中：税收收入",
+        "SR_YSAP": "收入-预算安排",
+        "ZC_YSAP": "支出-预算安排",
+        "BNSY_LJS": "本年上月累计数",
+        "SNSY_LJS": "上年上月累计数"
+      },
+      "%": {
+        "BYS_TBE": "本月数—同比+-额",
+        "BYS_TBB": "本月数—同比+-%",
+        "ZBYLJS_WYSS": "至本月累计数-为预算数%",
+        "ZBYLJS_TBE": "至本月累计数-同比+-额",
+        "ZBYLJS_TBB": "至本月累计数-同比+-%"
+      }
+    },
+    "cate": "预算执行",
+    "table": "RDYS_LD_YSSC_BNYS_QSYBGGDQSRWC"
+  },
+  "预算审查监督-预算执行表-全省一般公共预算收入完成情况表": {
+    "key_words": [],
+    "project_key": [
+      "科目编码",
+      "ai用科目编码"
+    ],
+    "is_sheng": 0,
+    "project_name": [
+      "科目名称",
+      "ai用科目名称"
+    ],
+    "is_hj": 1,
+    "unit": {
+      "万元": {
+        "YSS": "预算数",
+        "BYS_JE": "本月数—金额",
+        "BYS_SNTYS": "本月数—上年同月数",
+        "ZBYLJS_JE": "至本月累计数-金额",
+        "ZBYLJS_SNTQS": "至本月累计数-上年同期数",
+        "BNSY_LJS": "本年上月累计数",
+        "SNSY_LJS": "上年上月累计数"
+      },
+      "%": {
+        "BYS_TBE": "本月数—同比+-额",
+        "BYS_TBB": "本月数—同比+-%",
+        "ZBYLJS_WYSS": "至本月累计数-为预算数%",
+        "ZBYLJS_TBE": "至本月累计数-同比+-额",
+        "ZBYLJS_TBB": "至本月累计数-同比+-%"
+      }
+    },
+    "cate": "预算执行",
+    "table": "RDYS_LD_YSSC_YSZX_QSYBGGYSSRWC"
+  },
+  "预算审查监督-预算执行表-全省一般公共预算支出完成情况表": {
+    "key_words": [],
+    "project_key": [
+      "科目编码",
+      "ai用科目编码"
+    ],
+    "is_sheng": 0,
+    "project_name": [
+      "科目名称",
+      "ai用科目名称"
+    ],
+    "is_hj": 1,
+    "unit": {
+      "万元": {
+        "YSS": "预算数",
+        "BYS_JE": "本月数—金额",
+        "BYS_SNTYS": "本月数—上年同月数",
+        "ZBYLJS_JE": "至本月累计数-金额",
+        "ZBYLJS_SNTQS": "至本月累计数-上年同期数",
+        "BNSY_LJS": "本年上月累计数",
+        "SNSY_LJS": "上年上月累计数"
+      },
+      "%": {
+        "BYS_TBE": "本月数—同比+-额",
+        "BYS_TBB": "本月数—同比+-%",
+        "ZBYLJS_WYSS": "至本月累计数-为预算数%",
+        "ZBYLJS_TBE": "至本月累计数-同比+-额",
+        "ZBYLJS_TBB": "至本月累计数-同比+-%"
+      }
+    },
+    "cate": "预算执行",
+    "table": "RDYS_LD_YSSC_YSZX_QSYBGGYSZCWC"
+  },
+  "预算执行-全省一般公共预算地区支出完成情况表": {
+    "key_words": [],
+    "project_key": [
+      "科目编码",
+      "ai用科目编码"
+    ],
+    "is_sheng": 0,
+    "project_name": [
+      "科目名称",
+      "ai用科目名称"
+    ],
+    "is_hj": 1,
+    "unit": {
+      "万元": {
+        "YSS": "预算数",
+        "BYS_JE": "本月数-金额",
+        "BYS_SNTYS": "本月数-上年同月数",
+        "BYLJS_JE": "至本月累计数-金额",
+        "BYLJS_SNTQS": "至本月累计数-上年同期数",
+        "BNSY_LJS": "本年上月累计数",
+        "SNSY_LJS": "上年上月累计数"
+      },
+      "%": {
+        "BYS_TBE": "本月数-同比+-额",
+        "BYS_TBP": "本月数-同比+-%",
+        "BYLJS_YSS": "至本月累计数-为预算数%",
+        "BYLJS_TBE": "至本月累计数-同比+-额",
+        "BYLJS_TBP": "至本月累计数-同比+-%"
+      }
+    },
+    "cate": "预算执行",
+    "table": "RDYS_LD_YSZX_YBGGYS_DQZCWCQK"
+  },
+  "预算执行-省本级一般公共预算收入完成情况表": {
+    "key_words": [],
+    "project_key": [
+      "科目编码",
+      "ai用科目编码"
+    ],
+    "is_sheng": 1,
+    "project_name": [
+      "项目名称",
+      "ai用科目名称"
+    ],
+    "is_hj": 1,
+    "unit": {
+      "万元": {
+        "YSS": "预算数",
+        "BYS_JE": "本月数-金额",
+        "BYS_SNTYS": "本月数-上年同月数",
+        "BYLJS_JE": "至本月累计数-金额",
+        "BYLJS_SNTQS": "至本月累计数-上年同期数",
+        "BNSY_LJS": "本年上月累计数",
+        "SNSY_LJS": "上年上月累计数"
+      },
+      "%": {
+        "BYS_TBE": "本月数-同比+、-额",
+        "BYS_TBP": "本月数-同比+、-%",
+        "BYLJS_YSS": "至本月累计数-为预算数%",
+        "BYLJS_TBE": "至本月累计数-同比+、-额",
+        "BYLJS_TBP": "至本月累计数-同比+、-%"
+      }
+    },
+    "cate": "预算执行",
+    "table": "RDYS_LD_YSZX_YBGGYS_SBJSRWCQK"
+  },
+  "预算执行-省本级一般公共预算支出完成情况表": {
+    "key_words": [],
+    "project_key": [
+      "科目编码",
+      "ai用科目编码"
+    ],
+    "is_sheng": 1,
+    "project_name": [
+      "项目名称",
+      "ai用科目名称"
+    ],
+    "is_hj": 1,
+    "unit": {
+      "万元": {
+        "YSS": "预算数",
+        "BYS_JE": "本月数-金额",
+        "BYS_SNTYS": "本月数-上年同月数",
+        "BYLJS_JE": "至本月累计数-金额",
+        "BYLJS_SNTQS": "至本月累计数-上年同期数",
+        "BNSY_LJS": "本年上月累计数",
+        "SNSY_LJS": "上年上月累计数"
+      },
+      "%": {
+        "BYS_TBE": "本月数-同比+、-额",
+        "BYS_TBP": "本月数-同比+、-%",
+        "BYLJS_YSS": "至本月累计数-为预算数%",
+        "BYLJS_TBE": "至本月累计数-同比+、-额",
+        "BYLJS_TBP": "至本月累计数-同比+、-%"
+      }
+    },
+    "cate": "预算执行",
+    "table": "RDYS_LD_YSZX_YBGGYS_SBJZCWCQK"
+  },
+  "预算执行-一般公共预算收支排名情况": {
+    "key_words": [],
+    "project_key": [
+      "ai用科目编码"
+    ],
+    "is_sheng": 0,
+    "project_name": [
+      "项目名称",
+      "ai用科目名称"
+    ],
+    "is_hj": 1,
+    "unit": {
+      "万元": {
+        "SR_LJWCS": "收入累计完成数",
+        "SR_LJWCS_SORT": "收入累计完成数排序",
+        "ZC_LJWCS": "支出累计完成数",
+        "ZC_LJWCS_SORT": "支出累计完成数排序"
+      },
+      "%": {
+        "SR_TBE": "收入同比额",
+        "SR_TBE_SORT": "收入同比额排序",
+        "ZC_TBE": "支出同比额",
+        "ZC_TBE_SORT": "支出同比额排序"
+      }
+    },
+    "cate": "预算执行",
+    "table": "RDYS_LD_YSZX_YBGGYS_SZPMQK"
+  }
+}
