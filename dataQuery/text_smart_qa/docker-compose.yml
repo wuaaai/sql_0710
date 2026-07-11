@@ -1,0 +1,29 @@
+  version: '3.8'
+
+  services:
+    db-init:
+      build:
+        context: .
+        dockerfile: Dockerfile.migrate
+      image: rag-migrate:v2
+      container_name: rag_init
+      command: python src/agent/db/ingest_data_postgres.py
+      environment:
+        - APP_ENV=prod
+      volumes:
+        - ./images_data:/app/static/images
+        - ./data:/app/data
+      network_mode: "host"
+
+    rag-server:
+      image: rag:v2
+      container_name: rag_server
+      command: python server.py
+      environment:
+        - APP_ENV=prod
+      volumes:
+        - ./images_data:/app/static/images
+      network_mode: "host"
+      depends_on:
+        db-init:
+          condition: service_completed_successfully

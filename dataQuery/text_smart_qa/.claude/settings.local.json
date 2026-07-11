@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python switch_env.py show)",
+      "Bash(python switch_env.py dev)",
+      "Bash(python -c ' *)",
+      "Bash(pip list *)",
+      "Bash(pip show *)",
+      "WebSearch",
+      "WebFetch(domain:pypi.org)"
+    ]
+  }
+}

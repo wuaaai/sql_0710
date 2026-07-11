@@ -1,0 +1,43 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+RUN sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list.d/debian.sources
+RUN sed -i 's|http://deb.debian.org|http://mirrors.aliyun.com|g' /etc/apt/sources.list.d/debian.sources
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    libpq-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# 只装入库需要的依赖
+RUN pip install --no-cache-dir \
+    python-docx \
+    python-dotenv \
+    requests \
+    langchain-core \
+    langchain-openai \
+    sqlalchemy \
+    psycopg2-binary \
+    loguru \
+    pgvector
+
+# 只复制入库需要的代码
+COPY src/agent/db/ ./src/agent/db/
+COPY src/env_utils.py ./src/
+COPY src/__init__.py ./src/
+COPY src/agent/db/region_mapping.json ./src/agent/db/
+
+# 环境配置
+COPY .env.dev .env.prod ./
+
+# tiktoken 离线缓存
+COPY tiktoken_cache/ ./tiktoken_cache/
+
+COPY docker-entrypoint.sh .
+RUN chmod +x docker-entrypoint.sh
+
+RUN mkdir -p /app/data /app/static/images
+
+ENV PYTHONPATH=/app/src
+ENTRYPOINT ["./docker-entrypoint.sh"]
+CMD ["python", "src/agent/db/ingest_data_postgres.py"]

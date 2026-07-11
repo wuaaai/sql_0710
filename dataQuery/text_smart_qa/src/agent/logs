@@ -1,0 +1,714 @@
+2026-03-06 13:44:53 |MainProcess |MainThread |server.<module>: 55  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-03-06 13:44:53 |MainProcess |MainThread |server.<module>: 193  |INFO: 服务启动中...
+2026-03-06 13:44:53 |MainProcess |MainThread |server.<module>: 55  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-03-06 13:47:20 |MainProcess |MainThread |server.<module>: 55  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-03-06 13:47:20 |MainProcess |MainThread |server.<module>: 193  |INFO: 服务启动中...
+2026-03-06 13:47:20 |MainProcess |MainThread |server.<module>: 55  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-03-06 14:05:22 |MainProcess |MainThread |server.<module>: 55  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-03-06 14:05:22 |MainProcess |MainThread |server.<module>: 193  |INFO: 服务启动中...
+2026-03-06 14:05:22 |MainProcess |MainThread |server.<module>: 55  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-03-09 09:09:31 |MainProcess |MainThread |server.<module>: 55  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-03-09 09:09:31 |MainProcess |MainThread |server.<module>: 193  |INFO: 服务启动中...
+2026-03-09 09:09:31 |MainProcess |MainThread |server.<module>: 55  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-03-13 14:30:30 |MainProcess |MainThread |server.<module>: 55  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-03-13 14:30:30 |MainProcess |MainThread |server.<module>: 191  |INFO: 服务启动中...
+2026-03-13 14:30:30 |MainProcess |MainThread |server.<module>: 55  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-03-16 08:56:04 |MainProcess |MainThread |server.<module>: 55  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-03-16 08:56:04 |MainProcess |MainThread |server.<module>: 191  |INFO: 服务启动中...
+2026-03-16 08:56:04 |MainProcess |MainThread |server.<module>: 55  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-03-23 08:45:55 |MainProcess |MainThread |server.<module>: 55  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-03-23 08:45:55 |MainProcess |MainThread |server.<module>: 191  |INFO: 服务启动中...
+2026-03-23 08:45:55 |MainProcess |MainThread |server.<module>: 55  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-26 11:09:14 |MainProcess |MainThread |server.<module>: 30  |ERROR: 导入 Agent 失败，请确保在项目根目录下运行 server.py
+2026-05-26 11:09:14 |MainProcess |MainThread |server.<module>: 31  |ERROR: 错误详情: No module named 'zhipuai'
+2026-05-26 11:09:35 |MainProcess |MainThread |server.<module>: 30  |ERROR: 导入 Agent 失败，请确保在项目根目录下运行 server.py
+2026-05-26 11:09:35 |MainProcess |MainThread |server.<module>: 31  |ERROR: 错误详情: No module named 'zhipuai'
+2026-05-26 11:11:40 |MainProcess |MainThread |server.<module>: 30  |ERROR: 导入 Agent 失败，请确保在项目根目录下运行 server.py
+2026-05-26 11:11:40 |MainProcess |MainThread |server.<module>: 31  |ERROR: 错误详情: No module named 'zhipuai'
+2026-05-26 11:13:28 |MainProcess |MainThread |server.<module>: 30  |ERROR: 导入 Agent 失败，请确保在项目根目录下运行 server.py
+2026-05-26 11:13:28 |MainProcess |MainThread |server.<module>: 31  |ERROR: 错误详情: No module named 'zhipuai'
+2026-05-26 11:14:31 |MainProcess |MainThread |server.<module>: 30  |ERROR: 导入 Agent 失败，请确保在项目根目录下运行 server.py
+2026-05-26 11:14:31 |MainProcess |MainThread |server.<module>: 31  |ERROR: 错误详情: cannot import name 'ZHIPUAI_API_KEY' from 'src.env_utils' (D:\Users\lsy\Desktop\Langchain\src\env_utils.py)
+2026-05-26 11:14:54 |MainProcess |MainThread |server.<module>: 30  |ERROR: 导入 Agent 失败，请确保在项目根目录下运行 server.py
+2026-05-26 11:14:54 |MainProcess |MainThread |server.<module>: 31  |ERROR: 错误详情: cannot import name 'ZHIPUAI_API_KEY' from 'src.env_utils' (D:\Users\lsy\Desktop\Langchain\src\env_utils.py)
+2026-05-26 11:15:09 |MainProcess |MainThread |server.<module>: 30  |ERROR: 导入 Agent 失败，请确保在项目根目录下运行 server.py
+2026-05-26 11:15:09 |MainProcess |MainThread |server.<module>: 31  |ERROR: 错误详情: cannot import name 'ZHIPUAI_API_KEY' from 'src.env_utils' (D:\Users\lsy\Desktop\Langchain\src\env_utils.py)
+2026-05-26 11:17:04 |MainProcess |MainThread |server.<module>: 56  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-26 11:17:04 |MainProcess |MainThread |server.<module>: 192  |INFO: 服务启动中...
+2026-05-26 11:17:04 |MainProcess |MainThread |server.<module>: 56  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-26 15:53:50 |MainProcess |MainThread |server.<module>: 56  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-26 15:53:50 |MainProcess |MainThread |server.<module>: 193  |INFO: 服务启动中...
+2026-05-26 15:53:50 |MainProcess |MainThread |server.<module>: 56  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-26 15:59:43 |MainProcess |MainThread |server.<module>: 56  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-26 15:59:43 |MainProcess |MainThread |server.<module>: 193  |INFO: 服务启动中...
+2026-05-26 15:59:43 |MainProcess |MainThread |server.<module>: 56  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-26 16:35:40 |MainProcess |MainThread |server.<module>: 56  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-26 16:35:40 |MainProcess |MainThread |server.<module>: 193  |INFO: 服务启动中...
+2026-05-26 16:35:40 |MainProcess |MainThread |server.<module>: 56  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-26 16:38:00 |MainProcess |MainThread |server.<module>: 56  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-26 16:38:00 |MainProcess |MainThread |server.<module>: 193  |INFO: 服务启动中...
+2026-05-26 16:38:00 |MainProcess |MainThread |server.<module>: 56  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 09:54:18 |MainProcess |MainThread |server.<module>: 56  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 09:54:18 |MainProcess |MainThread |server.<module>: 193  |INFO: 服务启动中...
+2026-05-27 09:54:18 |MainProcess |MainThread |server.<module>: 56  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 10:24:18 |MainProcess |MainThread |server.<module>: 53  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 10:24:18 |MainProcess |MainThread |server.<module>: 194  |INFO: 服务启动中...
+2026-05-27 10:24:18 |MainProcess |MainThread |server.<module>: 53  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 10:32:45 |MainProcess |MainThread |server.<module>: 53  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 10:32:46 |MainProcess |MainThread |server.<module>: 194  |INFO: 服务启动中...
+2026-05-27 10:32:46 |MainProcess |MainThread |server.<module>: 53  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 11:06:34 |MainProcess |MainThread |server.<module>: 53  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 11:06:34 |MainProcess |MainThread |server.<module>: 194  |INFO: 服务启动中...
+2026-05-27 11:06:34 |MainProcess |MainThread |server.<module>: 53  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 11:13:32 |MainProcess |MainThread |server.<module>: 53  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 11:13:32 |MainProcess |MainThread |server.<module>: 194  |INFO: 服务启动中...
+2026-05-27 11:13:32 |MainProcess |MainThread |server.<module>: 53  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 11:20:48 |MainProcess |MainThread |server.<module>: 53  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 11:20:48 |MainProcess |MainThread |server.<module>: 206  |INFO: 服务启动中...
+2026-05-27 11:20:48 |MainProcess |MainThread |server.<module>: 53  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 11:26:03 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 11:26:03 |MainProcess |MainThread |server.<module>: 236  |INFO: 服务启动中...
+2026-05-27 11:26:03 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 15:11:58 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 15:11:58 |MainProcess |MainThread |server.<module>: 236  |INFO: 服务启动中...
+2026-05-27 15:11:58 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 15:18:15 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 15:18:15 |MainProcess |MainThread |server.<module>: 236  |INFO: 服务启动中...
+2026-05-27 15:18:15 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 15:24:30 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 15:24:30 |MainProcess |MainThread |server.<module>: 236  |INFO: 服务启动中...
+2026-05-27 15:24:30 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 16:12:25 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 16:12:25 |MainProcess |MainThread |server.<module>: 236  |INFO: 服务启动中...
+2026-05-27 16:12:25 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 16:32:37 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 16:32:37 |MainProcess |MainThread |server.<module>: 236  |INFO: 服务启动中...
+2026-05-27 16:32:37 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 16:44:23 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 16:44:23 |MainProcess |MainThread |server.<module>: 236  |INFO: 服务启动中...
+2026-05-27 16:44:23 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 16:45:26 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 16:45:26 |MainProcess |MainThread |server.<module>: 236  |INFO: 服务启动中...
+2026-05-27 16:45:26 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 16:56:02 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 16:56:02 |MainProcess |MainThread |server.<module>: 236  |INFO: 服务启动中...
+2026-05-27 16:56:02 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 17:00:36 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 17:00:36 |MainProcess |MainThread |server.<module>: 236  |INFO: 服务启动中...
+2026-05-27 17:00:36 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 17:15:32 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 17:15:32 |MainProcess |MainThread |server.<module>: 236  |INFO: 服务启动中...
+2026-05-27 17:15:32 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 17:20:55 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 17:20:55 |MainProcess |MainThread |server.<module>: 236  |INFO: 服务启动中...
+2026-05-27 17:20:55 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 17:32:51 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 17:32:51 |MainProcess |MainThread |server.<module>: 236  |INFO: 服务启动中...
+2026-05-27 17:32:51 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 17:35:18 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-27 17:35:18 |MainProcess |MainThread |server.<module>: 236  |INFO: 服务启动中...
+2026-05-27 17:35:18 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-28 08:59:02 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-28 08:59:02 |MainProcess |MainThread |server.<module>: 236  |INFO: 服务启动中...
+2026-05-28 08:59:02 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-28 08:59:11 |MainProcess |MainThread |server.stream_generator: 215  |ERROR: 接口流式执行发生异常: 'TurnCallLimiter' object has no attribute 'force_exhaust'
+2026-05-28 08:59:11 |MainProcess |MainThread |server.stream_generator: 216  |ERROR: Traceback (most recent call last):
+  File "D:\Users\lsy\Desktop\Langchain\server.py", line 167, in stream_generator
+    async for stream_mode, data in agent.astream(inputs, config=config, stream_mode=["messages"]):
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\pregel\main.py", line 3407, in astream
+    async for _ in runner.atick(
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\pregel\_runner.py", line 557, in atick
+    _panic_or_proceed(
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\pregel\_runner.py", line 687, in _panic_or_proceed
+    raise exc
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\pregel\_retry.py", line 706, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\_internal\_runnable.py", line 733, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\_internal\_runnable.py", line 501, in ainvoke
+    ret = await self.afunc(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 858, in _afunc
+    outputs = await asyncio.gather(*coros)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1193, in _arun_one
+    return await self._execute_tool_async(tool_request, input_type, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1153, in _execute_tool_async
+    content = _handle_tool_error(e, flag=self._handle_tool_errors)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 434, in _handle_tool_error
+    content = flag(e)  # type: ignore [assignment, call-arg]
+              ^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 391, in _default_handle_tool_errors
+    raise e
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1105, in _execute_tool_async
+    response = await tool.ainvoke(call_args, config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langchain_core\tools\structured.py", line 70, in ainvoke
+    return await super().ainvoke(input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langchain_core\tools\base.py", line 652, in ainvoke
+    return await self.arun(tool_input, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langchain_core\tools\base.py", line 1131, in arun
+    raise error_to_raise
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langchain_core\tools\base.py", line 1097, in arun
+    response = await coro_with_context(coro, context)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langchain_core\tools\structured.py", line 124, in _arun
+    return await self.coroutine(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\lsy\Desktop\Langchain\src\agent\utils\tool_limiter.py", line 41, in async_wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\lsy\Desktop\Langchain\src\agent\tools\my_rag_tool.py", line 194, in search_knowledge_base
+    rag_limiter.force_exhaust(thread_id)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TurnCallLimiter' object has no attribute 'force_exhaust'
+During task with name 'tools' and id 'f9f76422-5a68-8e63-8460-f1530774ec89'
+
+2026-05-28 08:59:30 |MainProcess |MainThread |server.stream_generator: 215  |ERROR: 接口流式执行发生异常: 'TurnCallLimiter' object has no attribute 'force_exhaust'
+2026-05-28 08:59:30 |MainProcess |MainThread |server.stream_generator: 216  |ERROR: Traceback (most recent call last):
+  File "D:\Users\lsy\Desktop\Langchain\server.py", line 167, in stream_generator
+    async for stream_mode, data in agent.astream(inputs, config=config, stream_mode=["messages"]):
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\pregel\main.py", line 3407, in astream
+    async for _ in runner.atick(
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\pregel\_runner.py", line 557, in atick
+    _panic_or_proceed(
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\pregel\_runner.py", line 687, in _panic_or_proceed
+    raise exc
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\pregel\_retry.py", line 706, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\_internal\_runnable.py", line 733, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\_internal\_runnable.py", line 501, in ainvoke
+    ret = await self.afunc(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 858, in _afunc
+    outputs = await asyncio.gather(*coros)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1193, in _arun_one
+    return await self._execute_tool_async(tool_request, input_type, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1153, in _execute_tool_async
+    content = _handle_tool_error(e, flag=self._handle_tool_errors)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 434, in _handle_tool_error
+    content = flag(e)  # type: ignore [assignment, call-arg]
+              ^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 391, in _default_handle_tool_errors
+    raise e
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1105, in _execute_tool_async
+    response = await tool.ainvoke(call_args, config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langchain_core\tools\structured.py", line 70, in ainvoke
+    return await super().ainvoke(input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langchain_core\tools\base.py", line 652, in ainvoke
+    return await self.arun(tool_input, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langchain_core\tools\base.py", line 1131, in arun
+    raise error_to_raise
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langchain_core\tools\base.py", line 1097, in arun
+    response = await coro_with_context(coro, context)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langchain_core\tools\structured.py", line 124, in _arun
+    return await self.coroutine(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\lsy\Desktop\Langchain\src\agent\utils\tool_limiter.py", line 41, in async_wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\lsy\Desktop\Langchain\src\agent\tools\my_rag_tool.py", line 194, in search_knowledge_base
+    rag_limiter.force_exhaust(thread_id)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TurnCallLimiter' object has no attribute 'force_exhaust'
+During task with name 'tools' and id 'c566a973-51d7-33db-1450-be8377737293'
+
+2026-05-28 08:59:50 |MainProcess |MainThread |server.stream_generator: 215  |ERROR: 接口流式执行发生异常: 'TurnCallLimiter' object has no attribute 'force_exhaust'
+2026-05-28 08:59:50 |MainProcess |MainThread |server.stream_generator: 216  |ERROR: Traceback (most recent call last):
+  File "D:\Users\lsy\Desktop\Langchain\server.py", line 167, in stream_generator
+    async for stream_mode, data in agent.astream(inputs, config=config, stream_mode=["messages"]):
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\pregel\main.py", line 3407, in astream
+    async for _ in runner.atick(
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\pregel\_runner.py", line 557, in atick
+    _panic_or_proceed(
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\pregel\_runner.py", line 687, in _panic_or_proceed
+    raise exc
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\pregel\_retry.py", line 706, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\_internal\_runnable.py", line 733, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\_internal\_runnable.py", line 501, in ainvoke
+    ret = await self.afunc(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 858, in _afunc
+    outputs = await asyncio.gather(*coros)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1193, in _arun_one
+    return await self._execute_tool_async(tool_request, input_type, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1153, in _execute_tool_async
+    content = _handle_tool_error(e, flag=self._handle_tool_errors)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 434, in _handle_tool_error
+    content = flag(e)  # type: ignore [assignment, call-arg]
+              ^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 391, in _default_handle_tool_errors
+    raise e
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1105, in _execute_tool_async
+    response = await tool.ainvoke(call_args, config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langchain_core\tools\structured.py", line 70, in ainvoke
+    return await super().ainvoke(input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langchain_core\tools\base.py", line 652, in ainvoke
+    return await self.arun(tool_input, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langchain_core\tools\base.py", line 1131, in arun
+    raise error_to_raise
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langchain_core\tools\base.py", line 1097, in arun
+    response = await coro_with_context(coro, context)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langchain_core\tools\structured.py", line 124, in _arun
+    return await self.coroutine(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\lsy\Desktop\Langchain\src\agent\utils\tool_limiter.py", line 41, in async_wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\lsy\Desktop\Langchain\src\agent\tools\my_rag_tool.py", line 194, in search_knowledge_base
+    rag_limiter.force_exhaust(thread_id)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TurnCallLimiter' object has no attribute 'force_exhaust'
+During task with name 'tools' and id 'ddf9e531-d1c5-6a17-8fa3-240f0ad4e820'
+
+2026-05-28 09:02:18 |MainProcess |MainThread |server.stream_generator: 215  |ERROR: 接口流式执行发生异常: 'TurnCallLimiter' object has no attribute 'force_exhaust'
+2026-05-28 09:02:18 |MainProcess |MainThread |server.stream_generator: 216  |ERROR: Traceback (most recent call last):
+  File "D:\Users\lsy\Desktop\Langchain\server.py", line 167, in stream_generator
+    async for stream_mode, data in agent.astream(inputs, config=config, stream_mode=["messages"]):
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\pregel\main.py", line 3407, in astream
+    async for _ in runner.atick(
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\pregel\_runner.py", line 557, in atick
+    _panic_or_proceed(
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\pregel\_runner.py", line 687, in _panic_or_proceed
+    raise exc
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\pregel\_retry.py", line 706, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\_internal\_runnable.py", line 733, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\_internal\_runnable.py", line 501, in ainvoke
+    ret = await self.afunc(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 858, in _afunc
+    outputs = await asyncio.gather(*coros)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1193, in _arun_one
+    return await self._execute_tool_async(tool_request, input_type, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1153, in _execute_tool_async
+    content = _handle_tool_error(e, flag=self._handle_tool_errors)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 434, in _handle_tool_error
+    content = flag(e)  # type: ignore [assignment, call-arg]
+              ^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 391, in _default_handle_tool_errors
+    raise e
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1105, in _execute_tool_async
+    response = await tool.ainvoke(call_args, config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langchain_core\tools\structured.py", line 70, in ainvoke
+    return await super().ainvoke(input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langchain_core\tools\base.py", line 652, in ainvoke
+    return await self.arun(tool_input, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langchain_core\tools\base.py", line 1131, in arun
+    raise error_to_raise
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langchain_core\tools\base.py", line 1097, in arun
+    response = await coro_with_context(coro, context)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\RAG\Lib\site-packages\langchain_core\tools\structured.py", line 124, in _arun
+    return await self.coroutine(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\lsy\Desktop\Langchain\src\agent\utils\tool_limiter.py", line 41, in async_wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\lsy\Desktop\Langchain\src\agent\tools\my_rag_tool.py", line 194, in search_knowledge_base
+    rag_limiter.force_exhaust(thread_id)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TurnCallLimiter' object has no attribute 'force_exhaust'
+During task with name 'tools' and id 'fc38b46d-9e3c-e1f1-4e3f-cd0abca1af5d'
+
+2026-05-28 09:05:13 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-28 09:05:13 |MainProcess |MainThread |server.<module>: 236  |INFO: 服务启动中...
+2026-05-28 09:05:13 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-28 09:33:09 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-28 09:33:09 |MainProcess |MainThread |server.<module>: 236  |INFO: 服务启动中...
+2026-05-28 09:33:09 |MainProcess |MainThread |server.<module>: 54  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-28 15:41:55 |MainProcess |MainThread |server.<module>: 56  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-28 15:41:55 |MainProcess |MainThread |server.<module>: 238  |INFO: 服务启动中...
+2026-05-28 15:41:55 |MainProcess |MainThread |server.<module>: 56  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-28 15:44:03 |MainProcess |MainThread |server.<module>: 56  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-05-28 15:44:03 |MainProcess |MainThread |server.<module>: 238  |INFO: 服务启动中...
+2026-05-28 15:44:03 |MainProcess |MainThread |server.<module>: 56  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-26 10:50:17 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-26 10:50:17 |MainProcess |MainThread |server.<module>: 240  |INFO: 服务启动中...
+2026-06-26 10:50:17 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-26 10:52:12 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-26 10:52:12 |MainProcess |MainThread |server.<module>: 240  |INFO: 服务启动中...
+2026-06-26 10:52:12 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-26 10:53:01 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-26 10:53:01 |MainProcess |MainThread |server.<module>: 240  |INFO: 服务启动中...
+2026-06-26 10:53:01 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-26 10:54:25 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-26 10:54:25 |MainProcess |MainThread |server.<module>: 240  |INFO: 服务启动中...
+2026-06-26 10:54:25 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-26 11:06:59 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-26 11:06:59 |MainProcess |MainThread |server.<module>: 240  |INFO: 服务启动中...
+2026-06-26 11:06:59 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-26 14:50:38 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-26 14:50:38 |MainProcess |MainThread |server.<module>: 240  |INFO: 服务启动中...
+2026-06-26 14:50:38 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-26 14:51:11 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-26 14:51:11 |MainProcess |MainThread |server.<module>: 240  |INFO: 服务启动中...
+2026-06-26 14:51:11 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-26 14:51:17 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-26 14:51:17 |MainProcess |MainThread |server.<module>: 240  |INFO: 服务启动中...
+2026-06-26 14:51:17 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-26 17:00:51 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-26 17:00:51 |MainProcess |MainThread |server.<module>: 241  |INFO: 服务启动中...
+2026-06-26 17:00:51 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-26 17:01:16 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=chitchat, reason=命中闲聊关键词，且没有明显财政业务意图
+2026-06-26 17:02:02 |MainProcess |MainThread |unified_qa_service.answer: 36  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-06-26 17:02:02 |MainProcess |MainThread |router_service.route_question: 107  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-06-26 17:25:49 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-26 17:25:49 |MainProcess |MainThread |server.<module>: 241  |INFO: 服务启动中...
+2026-06-26 17:25:49 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-29 16:44:26 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-29 16:44:26 |MainProcess |MainThread |server.<module>: 241  |INFO: 服务启动中...
+2026-06-29 16:44:26 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-29 16:44:40 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=chitchat, reason=命中闲聊关键词，且没有明显财政业务意图
+2026-06-29 16:44:46 |MainProcess |MainThread |unified_qa_service.answer: 36  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-06-29 16:44:46 |MainProcess |MainThread |router_service.route_question: 107  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-06-29 16:51:11 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-29 16:51:11 |MainProcess |MainThread |server.<module>: 241  |INFO: 服务启动中...
+2026-06-29 16:51:11 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-29 16:51:27 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=chitchat, reason=命中闲聊关键词，且没有明显财政业务意图
+2026-06-29 16:51:59 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=chitchat, reason=命中闲聊关键词，且没有明显财政业务意图
+2026-06-29 16:52:05 |MainProcess |MainThread |unified_qa_service.answer: 36  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-06-29 16:52:05 |MainProcess |MainThread |router_service.route_question: 107  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-06-29 16:57:11 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-29 16:57:11 |MainProcess |MainThread |server.<module>: 241  |INFO: 服务启动中...
+2026-06-29 16:57:11 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-29 17:03:10 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-29 17:03:10 |MainProcess |MainThread |server.<module>: 241  |INFO: 服务启动中...
+2026-06-29 17:03:10 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-29 17:04:13 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=chitchat, reason=命中闲聊关键词，且没有明显财政业务意图
+2026-06-29 17:04:23 |MainProcess |MainThread |unified_qa_service.answer: 36  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-06-29 17:04:23 |MainProcess |MainThread |router_service.route_question: 107  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-06-29 17:10:15 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-29 17:10:15 |MainProcess |MainThread |server.<module>: 241  |INFO: 服务启动中...
+2026-06-29 17:10:15 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-29 17:22:21 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=chitchat, reason=命中闲聊关键词，且没有明显财政业务意图
+2026-06-29 17:22:33 |MainProcess |MainThread |unified_qa_service.answer: 36  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-06-29 17:22:33 |MainProcess |MainThread |router_service.route_question: 107  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-06-29 17:34:33 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-29 17:34:33 |MainProcess |MainThread |server.<module>: 241  |INFO: 服务启动中...
+2026-06-29 17:34:33 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-29 17:35:04 |MainProcess |MainThread |unified_qa_service.answer: 36  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-06-29 17:35:04 |MainProcess |MainThread |router_service.route_question: 107  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-06-29 17:43:41 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-29 17:43:41 |MainProcess |MainThread |server.<module>: 241  |INFO: 服务启动中...
+2026-06-29 17:43:41 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-29 17:44:59 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-29 17:44:59 |MainProcess |MainThread |server.<module>: 241  |INFO: 服务启动中...
+2026-06-29 17:44:59 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-29 17:45:44 |MainProcess |MainThread |unified_qa_service.answer: 36  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-06-29 17:45:44 |MainProcess |MainThread |router_service.route_question: 107  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-06-30 09:22:46 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-30 09:22:46 |MainProcess |MainThread |server.<module>: 241  |INFO: 服务启动中...
+2026-06-30 09:22:46 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-30 09:49:42 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=chitchat, reason=命中闲聊关键词，且没有明显财政业务意图
+2026-06-30 09:49:58 |MainProcess |MainThread |unified_qa_service.answer: 36  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-06-30 09:49:58 |MainProcess |MainThread |router_service.route_question: 107  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-06-30 10:47:55 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-30 10:47:55 |MainProcess |MainThread |server.<module>: 241  |INFO: 服务启动中...
+2026-06-30 10:47:55 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-30 10:48:04 |MainProcess |MainThread |unified_qa_service.answer: 36  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-06-30 10:48:04 |MainProcess |MainThread |router_service.route_question: 107  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-06-30 10:49:42 |MainProcess |MainThread |unified_qa_service.answer: 36  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-06-30 10:49:42 |MainProcess |MainThread |router_service.route_question: 107  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-06-30 10:50:22 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-06-30 10:50:22 |MainProcess |MainThread |server.dify_openai_compatible_endpoint: 177  |ERROR: Traceback (most recent call last):
+  File "D:\pythonPro\dataQuery\text_smart_qa\server.py", line 133, in dify_openai_compatible_endpoint
+    unified_result = await unified_qa_service.answer(
+  File "D:\pythonPro\dataQuery\text_smart_qa\src\unified\unified_qa_service.py", line 66, in answer
+    fiscal_result = await self._fiscal_service.answer(decision.data_question or current_question)
+  File "D:\pythonPro\dataQuery\text_smart_qa\src\unified\fiscal_sql_service.py", line 17, in answer
+    return await asyncio.to_thread(self._answer_sync, question)
+  File "C:\Users\33529\.conda\envs\smartqa\lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+  File "C:\Users\33529\.conda\envs\smartqa\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonPro\dataQuery\text_smart_qa\src\unified\fiscal_sql_service.py", line 20, in _answer_sync
+    pipeline = self._get_pipeline()
+  File "D:\pythonPro\dataQuery\text_smart_qa\src\unified\fiscal_sql_service.py", line 41, in _get_pipeline
+    from fiscal_smart_qa.entity_resolver import EntityResolver
+  File "D:\pythonPro\dataQuery\fiscal_smart_qa\entity_resolver.py", line 16, in <module>
+    from vector_retriever import SearchHit, VectorRetriever
+  File "D:\pythonPro\dataQuery\fiscal_smart_qa\vector_retriever.py", line 16, in <module>
+    import pg8000.native
+ModuleNotFoundError: No module named 'pg8000'
+
+2026-06-30 10:51:05 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-30 10:51:05 |MainProcess |MainThread |server.<module>: 241  |INFO: 服务启动中...
+2026-06-30 10:51:05 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-30 10:51:09 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-06-30 10:51:09 |MainProcess |MainThread |server.dify_openai_compatible_endpoint: 177  |ERROR: Traceback (most recent call last):
+  File "D:\pythonPro\dataQuery\text_smart_qa\server.py", line 133, in dify_openai_compatible_endpoint
+    unified_result = await unified_qa_service.answer(
+  File "D:\pythonPro\dataQuery\text_smart_qa\src\unified\unified_qa_service.py", line 66, in answer
+    fiscal_result = await self._fiscal_service.answer(decision.data_question or current_question)
+  File "D:\pythonPro\dataQuery\text_smart_qa\src\unified\fiscal_sql_service.py", line 17, in answer
+    return await asyncio.to_thread(self._answer_sync, question)
+  File "C:\Users\33529\.conda\envs\smartqa\lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+  File "C:\Users\33529\.conda\envs\smartqa\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonPro\dataQuery\text_smart_qa\src\unified\fiscal_sql_service.py", line 20, in _answer_sync
+    pipeline = self._get_pipeline()
+  File "D:\pythonPro\dataQuery\text_smart_qa\src\unified\fiscal_sql_service.py", line 41, in _get_pipeline
+    from fiscal_smart_qa.entity_resolver import EntityResolver
+  File "D:\pythonPro\dataQuery\fiscal_smart_qa\entity_resolver.py", line 16, in <module>
+    from vector_retriever import SearchHit, VectorRetriever
+  File "D:\pythonPro\dataQuery\fiscal_smart_qa\vector_retriever.py", line 16, in <module>
+    import pg8000.native
+ModuleNotFoundError: No module named 'pg8000'
+
+2026-06-30 10:54:42 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-06-30 10:54:44 |MainProcess |MainThread |server.dify_openai_compatible_endpoint: 177  |ERROR: Traceback (most recent call last):
+  File "D:\pythonPro\dataQuery\text_smart_qa\server.py", line 133, in dify_openai_compatible_endpoint
+    unified_result = await unified_qa_service.answer(
+  File "D:\pythonPro\dataQuery\text_smart_qa\src\unified\unified_qa_service.py", line 66, in answer
+    fiscal_result = await self._fiscal_service.answer(decision.data_question or current_question)
+  File "D:\pythonPro\dataQuery\text_smart_qa\src\unified\fiscal_sql_service.py", line 17, in answer
+    return await asyncio.to_thread(self._answer_sync, question)
+  File "C:\Users\33529\.conda\envs\smartqa\lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+  File "C:\Users\33529\.conda\envs\smartqa\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pythonPro\dataQuery\text_smart_qa\src\unified\fiscal_sql_service.py", line 21, in _answer_sync
+    result = pipeline.run(question)
+  File "D:\pythonPro\dataQuery\fiscal_smart_qa\qa_pipeline.py", line 54, in run
+    rows = self._executor.query(compiled.sql)
+  File "D:\pythonPro\dataQuery\fiscal_smart_qa\dameng_executor.py", line 37, in query
+    with self.connect() as conn:
+  File "C:\Users\33529\.conda\envs\smartqa\lib\contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "D:\pythonPro\dataQuery\fiscal_smart_qa\dameng_executor.py", line 27, in connect
+    raise ImportError("dmPython is required for Dameng access.")
+ImportError: dmPython is required for Dameng access.
+
+2026-06-30 10:55:05 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=chitchat, reason=命中闲聊关键词，且没有明显财政业务意图
+2026-06-30 10:56:51 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-30 10:56:51 |MainProcess |MainThread |server.<module>: 233  |INFO: 服务启动中...
+2026-06-30 10:56:51 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-30 11:25:26 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-30 11:25:26 |MainProcess |MainThread |server.<module>: 233  |INFO: 服务启动中...
+2026-06-30 11:25:26 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-30 11:25:40 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=chitchat, reason=命中闲聊关键词，且没有明显财政业务意图
+2026-06-30 11:26:31 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=chitchat, reason=命中闲聊关键词，且没有明显财政业务意图
+2026-06-30 11:26:36 |MainProcess |MainThread |unified_qa_service.answer: 36  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-06-30 11:26:36 |MainProcess |MainThread |router_service.route_question: 107  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-06-30 11:27:26 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-06-30 14:59:47 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-30 14:59:47 |MainProcess |MainThread |server.<module>: 233  |INFO: 服务启动中...
+2026-06-30 14:59:47 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-30 15:00:14 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-06-30 15:04:03 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-30 15:04:03 |MainProcess |MainThread |server.<module>: 233  |INFO: 服务启动中...
+2026-06-30 15:04:03 |MainProcess |MainThread |server.<module>: 43  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-30 15:04:13 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-06-30 15:44:25 |MainProcess |MainThread |server.<module>: 48  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-30 15:44:25 |MainProcess |MainThread |server.<module>: 637  |INFO: 服务启动中...
+2026-06-30 15:44:25 |MainProcess |MainThread |server.<module>: 48  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-30 15:44:38 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-06-30 16:40:30 |MainProcess |MainThread |server.<module>: 49  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-30 16:40:30 |MainProcess |MainThread |server.<module>: 640  |INFO: 服务启动中...
+2026-06-30 16:40:30 |MainProcess |MainThread |server.<module>: 49  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-06-30 16:40:41 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=chitchat, reason=命中闲聊关键词，且没有明显财政业务意图
+2026-06-30 16:41:24 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-06-30 16:41:27 |MainProcess |asyncio_0 |fiscal_sql_service._answer_sync: 60  |ERROR: [FiscalSqlService] 智能问数执行失败：unknown command 'HELLO'
+2026-06-30 16:41:27 |MainProcess |asyncio_0 |fiscal_sql_service._answer_sync: 61  |ERROR: Traceback (most recent call last):
+  File "D:\pythonPro\dataQuery\text_smart_qa\src\unified\fiscal_sql_service.py", line 27, in _answer_sync
+    summary = self._build_summary(result, question)
+  File "D:\pythonPro\dataQuery\text_smart_qa\src\unified\fiscal_sql_service.py", line 174, in _build_summary
+    save_chart_record(chart_id, result.chart)
+  File "D:\pythonPro\dataQuery\text_smart_qa\src\unified\chart_cache.py", line 42, in save_chart_record
+    client.setex(
+  File "C:\Users\33529\.conda\envs\smartqa\lib\site-packages\redis\utils.py", line 164, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\33529\.conda\envs\smartqa\lib\site-packages\redis\commands\core.py", line 4370, in setex
+    return self.execute_command("SETEX", name, time, value)
+  File "C:\Users\33529\.conda\envs\smartqa\lib\site-packages\redis\client.py", line 798, in execute_command
+    return self._execute_command(*args, **options)
+  File "C:\Users\33529\.conda\envs\smartqa\lib\site-packages\redis\client.py", line 804, in _execute_command
+    conn = self.connection or pool.get_connection()
+  File "C:\Users\33529\.conda\envs\smartqa\lib\site-packages\redis\utils.py", line 258, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\33529\.conda\envs\smartqa\lib\site-packages\redis\connection.py", line 3163, in get_connection
+    connection.connect()
+  File "C:\Users\33529\.conda\envs\smartqa\lib\site-packages\redis\connection.py", line 1007, in connect
+    self.retry.call_with_retry(
+  File "C:\Users\33529\.conda\envs\smartqa\lib\site-packages\redis\retry.py", line 120, in call_with_retry
+    return do()
+  File "C:\Users\33529\.conda\envs\smartqa\lib\site-packages\redis\connection.py", line 1008, in <lambda>
+    lambda: self.connect_check_health(
+  File "C:\Users\33529\.conda\envs\smartqa\lib\site-packages\redis\connection.py", line 1062, in connect_check_health
+    self.on_connect_check_health(check_health=check_health)
+  File "C:\Users\33529\.conda\envs\smartqa\lib\site-packages\redis\connection.py", line 1154, in on_connect_check_health
+    self.handshake_metadata = self.read_response()
+  File "C:\Users\33529\.conda\envs\smartqa\lib\site-packages\redis\connection.py", line 1402, in read_response
+    raise response
+redis.exceptions.ResponseError: unknown command 'HELLO'
+
+2026-07-01 09:38:25 |MainProcess |MainThread |server.<module>: 49  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 09:38:25 |MainProcess |MainThread |server.<module>: 640  |INFO: 服务启动中...
+2026-07-01 09:38:25 |MainProcess |MainThread |server.<module>: 49  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 09:46:41 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=chitchat, reason=命中闲聊关键词，且没有明显财政业务意图
+2026-07-01 09:46:45 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 09:54:21 |MainProcess |MainThread |server.<module>: 49  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 09:54:21 |MainProcess |MainThread |server.<module>: 640  |INFO: 服务启动中...
+2026-07-01 09:54:21 |MainProcess |MainThread |server.<module>: 49  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 09:54:34 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 10:03:48 |MainProcess |MainThread |server.<module>: 49  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 10:03:48 |MainProcess |MainThread |server.<module>: 640  |INFO: 服务启动中...
+2026-07-01 10:03:48 |MainProcess |MainThread |server.<module>: 49  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 10:03:54 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 10:49:33 |MainProcess |MainThread |server.<module>: 51  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 10:49:33 |MainProcess |MainThread |server.<module>: 572  |INFO: 服务启动中...
+2026-07-01 10:49:33 |MainProcess |MainThread |server.<module>: 51  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 10:49:59 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 10:51:19 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 10:56:03 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 11:13:34 |MainProcess |MainThread |server.<module>: 44  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 11:13:34 |MainProcess |MainThread |server.<module>: 300  |INFO: 服务启动中...
+2026-07-01 11:13:34 |MainProcess |MainThread |server.<module>: 44  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 14:48:19 |MainProcess |MainThread |server.<module>: 44  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 14:48:19 |MainProcess |MainThread |server.<module>: 300  |INFO: 服务启动中...
+2026-07-01 14:48:20 |MainProcess |MainThread |server.<module>: 44  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 14:49:02 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 14:55:47 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 15:02:01 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 15:05:55 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 15:11:36 |MainProcess |MainThread |server.<module>: 44  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 15:11:36 |MainProcess |MainThread |server.<module>: 292  |INFO: 服务启动中...
+2026-07-01 15:11:36 |MainProcess |MainThread |server.<module>: 44  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 15:12:40 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 15:22:50 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=chitchat, reason=命中闲聊关键词，且没有明显财政业务意图
+2026-07-01 15:22:54 |MainProcess |MainThread |unified_qa_service.answer: 36  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-07-01 15:22:54 |MainProcess |MainThread |router_service.route_question: 107  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-07-01 15:23:11 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 15:23:55 |MainProcess |MainThread |server.<module>: 44  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 15:23:55 |MainProcess |MainThread |server.<module>: 292  |INFO: 服务启动中...
+2026-07-01 15:23:55 |MainProcess |MainThread |server.<module>: 44  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 15:24:09 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=chitchat, reason=命中闲聊关键词，且没有明显财政业务意图
+2026-07-01 15:29:37 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 15:30:16 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 15:31:03 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 15:31:42 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 15:33:01 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 15:33:49 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 15:34:20 |MainProcess |MainThread |unified_qa_service.answer: 36  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-07-01 15:34:20 |MainProcess |MainThread |router_service.route_question: 107  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-07-01 15:37:23 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 15:37:57 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 15:38:22 |MainProcess |MainThread |unified_qa_service.answer: 36  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-07-01 15:38:22 |MainProcess |MainThread |router_service.route_question: 107  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-07-01 15:39:28 |MainProcess |MainThread |unified_qa_service.answer: 36  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-07-01 15:39:28 |MainProcess |MainThread |router_service.route_question: 107  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-07-01 15:39:41 |MainProcess |MainThread |unified_qa_service.answer: 36  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-07-01 15:39:41 |MainProcess |MainThread |router_service.route_question: 107  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-07-01 15:40:24 |MainProcess |MainThread |unified_qa_service.answer: 36  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-07-01 15:40:24 |MainProcess |MainThread |router_service.route_question: 107  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-07-01 15:41:09 |MainProcess |MainThread |unified_qa_service.answer: 36  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-07-01 15:41:09 |MainProcess |MainThread |router_service.route_question: 107  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-07-01 15:41:55 |MainProcess |MainThread |unified_qa_service.answer: 36  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-07-01 15:41:55 |MainProcess |MainThread |router_service.route_question: 107  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-07-01 15:51:19 |MainProcess |MainThread |server.<module>: 44  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 15:51:19 |MainProcess |MainThread |server.<module>: 292  |INFO: 服务启动中...
+2026-07-01 15:51:19 |MainProcess |MainThread |server.<module>: 44  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 15:52:13 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 15:52:58 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 16:13:45 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=text_qa, reason=明显是财政文档问答问题
+2026-07-01 16:14:18 |MainProcess |MainThread |unified_qa_service.answer: 36  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-07-01 16:14:18 |MainProcess |MainThread |router_service.route_question: 107  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-07-01 16:14:41 |MainProcess |MainThread |unified_qa_service.answer: 36  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-07-01 16:14:41 |MainProcess |MainThread |router_service.route_question: 107  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-07-01 16:15:26 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 16:16:59 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 16:20:38 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 16:21:16 |MainProcess |MainThread |unified_qa_service.answer: 36  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-07-01 16:21:16 |MainProcess |MainThread |router_service.route_question: 107  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-07-01 16:22:07 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 16:22:49 |MainProcess |MainThread |unified_qa_service.answer: 39  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=明显是财政数据查询问题
+2026-07-01 16:48:46 |MainProcess |MainThread |server.<module>: 44  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 16:48:46 |MainProcess |MainThread |server.<module>: 292  |INFO: 服务启动中...
+2026-07-01 16:48:46 |MainProcess |MainThread |server.<module>: 44  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 16:49:16 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=hybrid, reason=问题拆分后同时包含数据查询和文档解释子意图
+2026-07-01 16:50:58 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=hybrid, reason=问题拆分后同时包含数据查询和文档解释子意图
+2026-07-01 16:51:52 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=问题拆分后主要是财政数据查询
+2026-07-01 16:52:41 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=问题拆分后主要是财政数据查询
+2026-07-01 16:53:44 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=问题拆分后主要是财政数据查询
+2026-07-01 17:02:12 |MainProcess |MainThread |server.<module>: 44  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 17:02:12 |MainProcess |MainThread |server.<module>: 292  |INFO: 服务启动中...
+2026-07-01 17:02:12 |MainProcess |MainThread |server.<module>: 44  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 17:07:23 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=hybrid, reason=问题拆分后同时包含数据查询和文档解释子意图
+2026-07-01 17:09:59 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=问题拆分后主要是财政数据查询
+2026-07-01 17:29:20 |MainProcess |MainThread |server.<module>: 44  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 17:29:20 |MainProcess |MainThread |server.<module>: 292  |INFO: 服务启动中...
+2026-07-01 17:29:20 |MainProcess |MainThread |server.<module>: 44  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 17:31:36 |MainProcess |MainThread |server.<module>: 44  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 17:31:36 |MainProcess |MainThread |server.<module>: 292  |INFO: 服务启动中...
+2026-07-01 17:31:36 |MainProcess |MainThread |server.<module>: 44  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-01 17:33:28 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=text_qa, reason=问题拆分后主要是财政文档解释
+2026-07-01 17:33:41 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=text_qa, reason=问题拆分后主要是财政文档解释
+2026-07-01 17:34:05 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=text_qa, reason=问题拆分后主要是财政文档解释
+2026-07-01 17:34:17 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=text_qa, reason=问题拆分后主要是财政文档解释
+2026-07-01 17:34:53 |MainProcess |MainThread |unified_qa_service.answer: 35  |INFO: [UnifiedQaService] 简单规则未命中，改走大模型路由
+2026-07-01 17:34:53 |MainProcess |MainThread |router_service.route_question: 182  |INFO: [Router] 规则未命中，开始使用大模型补判
+2026-07-01 17:35:47 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=text_qa, reason=问题拆分后主要是财政文档解释
+2026-07-01 17:36:36 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=text_qa, reason=问题拆分后主要是财政文档解释
+2026-07-01 17:37:12 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=text_qa, reason=问题拆分后主要是财政文档解释
+2026-07-01 17:37:56 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=问题拆分后主要是财政数据查询
+2026-07-01 17:38:25 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=问题拆分后主要是财政数据查询
+2026-07-01 17:40:02 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=text_qa, reason=问题拆分后主要是财政文档解释
+2026-07-02 09:37:53 |MainProcess |MainThread |server.<module>: 44  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-02 09:37:53 |MainProcess |MainThread |server.<module>: 292  |INFO: 服务启动中...
+2026-07-02 09:37:53 |MainProcess |MainThread |server.<module>: 44  |INFO: 图片服务已挂载: http://localhost:8000/static/images/
+2026-07-02 09:40:53 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=问题拆分后主要是财政数据查询
+2026-07-02 09:41:48 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=问题拆分后主要是财政数据查询
+2026-07-02 09:42:01 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=问题拆分后主要是财政数据查询
+2026-07-02 09:42:33 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=text_qa, reason=问题拆分后主要是财政文档解释
+2026-07-02 09:44:36 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=text_qa, reason=问题拆分后主要是财政文档解释
+2026-07-02 09:46:35 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=问题拆分后主要是财政数据查询
+2026-07-02 09:46:50 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=text_qa, reason=问题拆分后主要是财政文档解释
+2026-07-02 09:47:34 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=问题拆分后主要是财政数据查询
+2026-07-02 09:48:23 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=text_qa, reason=问题拆分后主要是财政文档解释
+2026-07-02 09:50:31 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=text_qa, reason=问题拆分后主要是财政文档解释
+2026-07-02 09:51:07 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=text_qa, reason=问题拆分后主要是财政文档解释
+2026-07-02 09:52:01 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=text_qa, reason=问题拆分后主要是财政文档解释
+2026-07-02 09:53:17 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=fiscal_sql, reason=问题拆分后主要是财政数据查询
+2026-07-02 10:00:06 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=text_qa, reason=问题拆分后主要是财政文档解释
+2026-07-02 10:05:00 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=hybrid, reason=问题拆分后同时包含数据查询和文档解释子意图
+2026-07-02 10:13:03 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=text_qa, reason=问题拆分后主要是财政文档解释
+2026-07-02 10:43:22 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=hybrid, reason=问题拆分后同时包含数据查询和文档解释子意图
+2026-07-02 16:00:50 |MainProcess |MainThread |unified_qa_service.answer: 38  |INFO: [UnifiedQaService] 简单规则已命中，route=text_qa, reason=问题拆分后主要是财政文档解释

@@ -1,0 +1,35 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.eggs/
+*.egg-info/
+*.egg
+
+# 环境配置文件（.env 不入镜像，运行时挂载/通过 APP_ENV 生成；.env.dev/.env.prod 打入镜像供切换用）
+.env
+
+# IDE
+.vscode/
+.idea/
+.claude/
+
+# 日志和数据（运行时 volume）
+logs/
+data/
+static/images/
+
+# 虚拟环境
+venv/
+.venv/
+
+# 其他
+.DS_Store
+Thumbs.db
+*.md
+readme.txt
+test.py
