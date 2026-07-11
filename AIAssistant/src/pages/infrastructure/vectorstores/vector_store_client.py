@@ -10,6 +10,7 @@
 
 from __future__ import annotations
 
+import json
 from typing import Any, Dict, List, Optional, Tuple
 
 from langchain_core.documents import Document
@@ -308,6 +309,12 @@ class PgVectorStore(VectorStore):
         documents: List[Document] = []
         for row, _distance in rows:
             metadata = row.c_metadata or {}
+            # pgvector JSONB 字段可能返回字符串，需解析为 dict
+            if isinstance(metadata, str):
+                try:
+                    metadata = json.loads(metadata)
+                except (json.JSONDecodeError, TypeError):
+                    metadata = {}
             documents.append(
                 Document(
                     page_content=row.c_document,

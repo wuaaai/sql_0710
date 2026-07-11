@@ -20,7 +20,7 @@ from src.pages.request_lifecycle.unified_intent_extractor import UnifiedIntentEx
 
 
 LLM_CONFIG = LlmConfig(
-    api_key="YOUR_DEEPSEEK_API_KEY",
+    api_key="sk-d507bd835e174d99b57757f3010dfd02",
     base_url="https://api.deepseek.com/v1",
     model="deepseek-chat",
     timeout_seconds=90,

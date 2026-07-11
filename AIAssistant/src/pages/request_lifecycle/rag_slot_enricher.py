@@ -162,14 +162,15 @@ class RagSlotEnricher:
                     candidates["business_module"].append(kw)
                     sources["business_module"].append(source)
 
-            # 科目 — 词典匹配 + 正则
+            # 科目 — 词典匹配 + 正则（白名单过滤，只采纳已知科目词典内的值）
             for keyword in self._subject_keywords:
                 if keyword in text and keyword not in user_question:
                     candidates["subjects"].append(keyword)
                     sources["subjects"].append(source)
+            # 正则提取也加白名单过滤，只采纳包含已知科目关键词的匹配
             for m in re.finditer(r"([一-龥]{2,18})(收入|支出)", text):
                 term = m.group(0)
-                if term not in user_question:
+                if term not in user_question and self._is_known_subject(term):
                     candidates["subjects"].append(term)
                     sources["subjects"].append(source)
 
@@ -211,6 +212,9 @@ class RagSlotEnricher:
                     top[0][0],
                     0.9 if top[0][1] >= self.HIGH_CONFIDENCE_THRESHOLD else 0.5,
                 )
+            elif top[0][1] == 1 and top[1][1] == 1:
+                # 不同候选值各出现一次 → 取第一个，低置信
+                result[slot] = (top[0][0], 0.5)
             else:
                 # 平局 → 不补全（方案7）
                 result[slot] = (None, 0.0)
@@ -362,3 +366,21 @@ class RagSlotEnricher:
         if not source_list:
             return ""
         return Counter(source_list).most_common(1)[0][0]
+
+    def _is_known_subject(self, term: str) -> bool:
+        """检查提取的科目是否在已知词典中（白名单过滤）。
+
+        Args:
+            term: 正则提取的候选科目，如"卫生健康支出"
+
+        Returns:
+            True 表示该科目在已知词典中
+        """
+        # 精确匹配
+        if term in self._subject_keywords:
+            return True
+        # 子串匹配 — 已知科目包含提取的 term 或 term 包含已知科目
+        for kw in self._subject_keywords:
+            if term in kw or kw in term:
+                return True
+        return False
