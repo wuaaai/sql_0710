@@ -1,0 +1,12 @@
+name: CI
+on: [push]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+      - run: pip install -e .
+      - run: python -c "from src.domain.intent.unified_intent import UnifiedIntentDict; print("ok")"

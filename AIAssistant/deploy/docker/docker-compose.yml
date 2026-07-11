@@ -1,0 +1,11 @@
+# docker-compose 骨架
+version: "3.8"
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+  cache:
+    image: redis:7
+  vector_store:
+    image: milvusdb/milvus:latest
