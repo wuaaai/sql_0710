@@ -1,11 +1,28 @@
-[build-system]
-requires = ["setuptools>=68.0"]
-build-backend = "setuptools.backends._legacy:_Backend"
-
 [project]
 name = "ai-assistant"
 version = "0.1.0"
+description = "财政智能助手系统"
 requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.28",
+    "pydantic>=2.0",
+    "langchain-core>=0.3.0",
+    "langchain>=0.3.0",
+    "pgvector>=0.3.0",
+    "sqlalchemy>=2.0",
+    "psycopg2-binary>=2.9",
+    "pytz>=2024.2",
+    "openpyxl>=3.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.24",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
